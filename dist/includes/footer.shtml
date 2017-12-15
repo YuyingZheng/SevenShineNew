@@ -1,67 +1,11 @@
 <footer class="footer">
-	<div class="region-area">
-		<div class="container">
-			<div class="row">
-				<div class="col-t-6">
-					<div class="sitemap">
-						<h3 class="title">site map</h3>
-						<ul class="sitemap-nav">
-							<li><a href="#">Home</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">FlexBox</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">Grid</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">Sticky Footer</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">Full width</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">Holder</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">About me</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-							<li><a href="#">Contact</a> <svg class="icon icon-arrow-right"><use xlink:href="assets/images/icons.svg#icon-arrow-right"></use></svg></li>
-						</ul>
-					</div>
-				</div>
-
-				<div class="col-t-6">
-					<div class="group">
-						<h3 class="title">Group</h3>
-						<a class="group-cover" href="#">
-							<span class="share hide-mobile"><svg class="icon icon-share"><use xlink:href="assets/images/icons.svg#icon-share"></use></svg></span>
-							<span class="text">Yinchen Studio</span>
-							<!-- <img src="https://unsplash.it/1200/400/?random" alt="image"> -->
-							<img src="./assets/images/group-cover.jpg" alt="image">
-						</a>
-					</div>
-				</div>
-			</div>
+	<div class="global-width">
+		<div class="title">
+			<p>属于外商投资企业，位于厦门软件园三</p>
+			<p>属于外商投资企业，位于厦门软件园三</p>
+			<p>属于外商投资企业，位于厦门软件园三</p>
+		</div>
+		<div class="qr-code">
 		</div>
 	</div>
-
-	<div class="copyright">
-		<div class="container">
-			<ul class="social-links">
-				<li>
-					<a class="social-item" href="#"><svg class="icon icon-qq"><use xlink:href="assets/images/icons.svg#icon-qq"></use></svg></a>
-				</li>
-				<li>
-					<a class="social-item" href="#"><svg class="icon icon-wechat"><use xlink:href="assets/images/icons.svg#icon-wechat"></use></svg></a>
-				</li>
-				<li>
-					<a class="social-item" href="#"><svg class="icon icon-weibo"><use xlink:href="assets/images/icons.svg#icon-weibo"></use></svg></a>
-				</li>
-				<li>
-					<a class="social-item" href="#"><svg class="icon icon-twitter"><use xlink:href="assets/images/icons.svg#icon-twitter"></use></svg></a>
-				</li>
-				<li>
-					<a class="social-item" href="#"><svg class="icon icon-github"><use xlink:href="assets/images/icons.svg#icon-github"></use></svg></a>
-				</li>
-			</ul>
-			<p class="brand">&copy; YINCHEN SHOP COM.</p>
-			<div class="designer">
-				<span>Designed by</span>
-				<a href="#"><svg class="icon icon-monkey"><use xlink:href="assets/images/icons.svg#icon-monkey"></use></svg> Yinchen Wang </a>
-				<p class="copy">2017 <span>|</span> All Rights Reserved.</p>
-			</div>
-		</div>
-	</div>
-
-	<a class="scroll-top J_ScrollTop" href="javascript:void(0);">
-		<svg class="icon icon-scroll-top"><use xlink:href="assets/images/icons.svg#icon-scroll-top"></use></svg>
-	</a>
 </footer>

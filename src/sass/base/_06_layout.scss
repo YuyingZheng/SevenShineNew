@@ -3,39 +3,24 @@
 //  Layout.scss
 //
 //********************************************//
-.container,
-.container-fluid {
-  position: relative;
+.global-width {
+  width: 1140px;
   margin: 0 auto;
-  padding: 0 var(--container-padding);
-}
-
-.container {
-  @include media(tablet) {
-    max-width: 9.6rem;
-  }
-  @include media(desktop) {
-    max-width: 11.4rem;
-  }
+  border: 1px solid #ddd;
 }
 
 
 //============================================//
 //  Flexbox sticky footer
 //============================================//
-#app {
-  display: flex;
-  flex-direction: column;
-  height: 100vh;
-}
 
 .header,
 .footer {
-  flex-shrink: 0;
+
 }
 
 .main {
-  flex: 1 0 auto;
+
 }
 
 
@@ -43,95 +28,6 @@
 //  Header
 //============================================//
 .header{
-  .top-bar{
-    position: relative;
-    z-index: z('default');
-    padding: .12rem 0;
-    color: $light-white;
-    box-shadow: 0 .03rem .05rem $black;
-    background: $lightest-black url(../assets/images/style/pattern.png) repeat 0 0;
-    &:before,
-    &:after{
-      content: '';
-      display: block;
-      position: absolute;
-      left: 0;
-      right: 0;
-    }
-    &:before{
-      top: 0;
-      height: .04rem;
-      background-color: $primary-blue;
-      animation: hue 20s infinite linear;
-    }
-    &:after{
-      bottom: .03rem;
-      height: .01rem;
-      border-top: .01rem dashed $light-white;
-    }
-  }
-  .top-info{
-    font-size: .12rem;
-    @extend .list-reset;
-    @include clearfix();
-    li{
-      box-sizing: border-box;
-      width: 50%;
-      padding: .04rem 0;
-      float: left;
-      text-align: center;
-      @extend %ellipsis;
-    }
-    .slogan{
-      width: 100%;
-      font-size: .2rem;
-      font-weight: 700;
-      font-family: $extra-font-family;
-    }
-    .icon{
-      width: .16rem;
-      height: .16rem;
-      margin-right: .04rem;
-    }
-  }
-  .follow-me{
-    @include clearfix();
-    @extend .list-reset;
-    li{
-      box-sizing: border-box;
-      float: right;
-      padding-left: .1rem;
-      a:hover .icon{
-        color: $theme-color;
-        transition: $primary-transition;
-      }
-    }
-    .title{
-      text-align: right;
-      width: 100%;
-      margin-bottom: .08rem;
-      font-family: $feature-font-family;
-    }
-    .icon{
-      width: .24rem;
-      height: .24rem;
-      color: $light-white;
-    }
-    .quote-btn{
-      display: inline-block;
-      text-decoration: none;
-      padding: .06rem .15rem;
-      font-size: .12rem;
-      color: $light-white;
-      font-family: $extra-font-family;
-      font-weight: 700;
-      border-radius: .13rem;
-      background-color: $primary-blue;
-      &:hover{
-        background-color: $theme-color;
-      }
-    }
-  }
   .logo{
     text-align: center;
     margin: .3rem 0;
@@ -146,70 +42,6 @@
       width: 100%;
     }
   }
-  .nav-toggle{
-    position: relative;
-    z-index: z('over-default');
-    text-align: center;
-    &:before{
-      content: '';
-      position: absolute;
-      top: 0;
-      bottom: 0;
-      left: 100%;
-      right: 0;
-      z-index: z('zero');
-      background-color: $theme-color;
-      transition: left 600ms ease-out;
-    }
-    .text{
-      position: relative;
-      font-weight: 600;
-      color: $light-white;
-      opacity: 0;
-      display: inline-block;
-      line-height: .34rem;
-    }
-    .hamburger{
-      display: block;
-      position: absolute;
-      top: 0;
-      right: 0;
-      z-index: z('default');
-      padding: .04rem .08rem;
-      background-color: $theme-color;
-      overflow: hidden;
-      & > span{
-        display: block;
-        text-indent: -999em;
-        height: .02rem;
-        width: .2rem;
-        background-color: $primary-gray;
-        margin: .05rem 0;
-      }
-    }
-    &.active{
-      &:before{
-        left: 0;
-      }
-      .text{
-        opacity: 1;
-        animation: zoomIn 1s ease-in-out;
-      }
-      .hamburger span{
-        transition: all 400ms ease-out;
-        background-color: $white;
-        &:first-child{
-          transform: rotate(45deg) translateX(5px) translateY(5px);
-        }
-        &:nth-child(2){
-          opacity: 0;
-        }
-        &:last-child{
-          transform: rotate(-45deg) translateX(5px) translateY(-5px);
-        }
-      }
-    }
-  }
   .nav{
     display: none;
     position: absolute;
@@ -218,7 +50,7 @@
     right: var(--container-padding);
     z-index: z('dropdown');
     padding: .15rem 0;
-    background: $primary-gray url(../assets/images/style/pattern.png) repeat 0 0;
+    background-color: #ffffff;
     @extend .list-reset;
   }
   .nav-link{

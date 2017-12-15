@@ -7,7 +7,7 @@ body {
   font: #{$base-font-size}/#{$base-line-height} $base-font-family;
   color: $base-font-color;
   font-weight: 400;
-  background: $light-white url(../assets/images/style/pattern.png) repeat 0 0;
+  background-color: $body-color;
 }
 
 a{

@@ -17,10 +17,6 @@
   overflow: hidden;
 }
 
-.full-width { 
-  margin-left: calc(50% - 50vw);
-  margin-right: calc(50% - 50vw);
-}
 
 // Border-radius
 .rounded {
@@ -146,43 +142,4 @@
 .clear {
   clear: both;
 }
-
-// Reponsive display 
-.show-mobile {
-  @include media('tablet') {
-    display: none !important;
-  }
-}
-
-.hide-mobile {
-  @include media('mobile') {
-    display: none !important;
-  }
-}
-
-.show-tablet {
-  @include media('mobile') {
-    display: none !important;
-  }
-  @include media('desktop') {
-    display: none !important;
-  }
-}
-
-.hide-tablet {
-  @include media('onlyTablet') {
-    display: none !important;
-  }
-}
-
-.show-desktop {
-  @include media('noDesktop') {
-    display: none !important;
-  }
-}
-
-.hide-desktop {
-  @include media('desktop') {
-    display: none !important;
-  }
 }
