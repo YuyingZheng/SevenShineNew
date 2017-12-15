@@ -1,0 +1,67 @@
+//============================================//
+//
+// Box.scss
+//
+//********************************************//
+.box{
+	padding: var(--box-padding-y) var(--box-padding-x);
+	background-color: $box-bg-color;
+	font-family: $zh-cn-font;
+	& > .title{
+		color: $primary-blue;
+		border-left: .02rem solid $theme-color;
+		padding-left: .1rem;
+		line-height: 1;
+	}
+	p{
+		line-height: 1.5;
+	}
+	ul{
+		list-style-type: circle;
+		padding-left: 0;
+		list-style-position: inside;
+		li{
+			line-height: 1.8;
+		}
+	}
+	.code{
+		margin-bottom: .2rem;
+		& > .title{
+			padding: .05rem .1rem;
+			color: $light-white;
+			background-color: $gray;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		pre{
+			margin: 0;
+			padding: .2rem .15rem;
+			color: $light-white;
+			background-color: $code-bg-color;
+			overflow: auto;
+			.title{
+				color: $code-title;
+			}
+			.attribute{
+				color: $code-attribute;
+			}
+			.value{
+				color: $code-value;
+			}
+			.comment{
+				color: $code-comment;
+			}
+			.class{
+				color: $code-class;
+			}
+			.property{
+				color: $code-property;
+			}
+		}
+		code{
+			display: block;
+			font-family: $zh-cn-font;
+		}
+
+	}
+}

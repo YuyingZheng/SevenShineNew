@@ -1,0 +1,188 @@
+//============================================//
+//
+// Utilities.scss
+//
+//********************************************//
+// Helpers
+.list-reset {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+%ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.full-width { 
+  margin-left: calc(50% - 50vw);
+  margin-right: calc(50% - 50vw);
+}
+
+// Border-radius
+.rounded {
+  border-radius: $radius;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+// Clearfix
+.clearfix {
+  @include clearfix();
+}
+
+// Margin / Padding
+.margin-0 {
+  margin: 0 !important;
+}
+
+.margin-top-0 {
+  margin-top: 0 !important;
+}
+
+.margin-top-sm {
+  margin-top: calc(var(--gap) * 3) !important;
+}
+
+.margin-top-m {
+  margin-top: calc(var(--gap) * 6) !important;
+}
+
+.margin-top-l {
+  margin-top: calc(var(--gap) * 8) !important;
+}
+
+.margin-top-xl {
+  margin-top: calc(var(--gap) * 10) !important;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0 !important;
+}
+
+.margin-bottom-sm {
+  margin-bottom: calc(var(--gap) * 3) !important;
+}
+
+.margin-bottom-m {
+  margin-bottom: calc(var(--gap) * 6) !important;
+}
+
+.margin-bottom-l {
+  margin-bottom: calc(var(--gap) * 8) !important;
+}
+
+.margin-bottom-xl {
+  margin-bottom: calc(var(--gap) * 10) !important;
+}
+
+// Text
+.text-success {
+  color: $success !important;
+}
+
+.text-warning {
+  color: $warning !important;
+}
+
+.text-danger {
+  color: $danger !important;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-light {
+  font-weight: 300 !important;
+}
+
+.text-regular {
+  font-weight: 400 !important;
+}
+
+.text-semibold {
+  font-weight: 600 !important;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+// Float
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+// Reponsive display 
+.show-mobile {
+  @include media('tablet') {
+    display: none !important;
+  }
+}
+
+.hide-mobile {
+  @include media('mobile') {
+    display: none !important;
+  }
+}
+
+.show-tablet {
+  @include media('mobile') {
+    display: none !important;
+  }
+  @include media('desktop') {
+    display: none !important;
+  }
+}
+
+.hide-tablet {
+  @include media('onlyTablet') {
+    display: none !important;
+  }
+}
+
+.show-desktop {
+  @include media('noDesktop') {
+    display: none !important;
+  }
+}
+
+.hide-desktop {
+  @include media('desktop') {
+    display: none !important;
+  }
+}

@@ -1,0 +1,29 @@
+<div class="widget widget-slider">
+  <h3 class="title">Here We Go</h3>
+  <div class="inner">
+    <div class="swiper-container J_HomeSlider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <a href="#"><img src="assets/uploads/slider/01.jpg" alt="images"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#"><img src="assets/uploads/slider/02.jpg" alt="images"></a>
+        </div>
+        <div class="swiper-slide">
+          <a href="#"><img src="assets/uploads/slider/03.jpg" alt="images"></a>
+        </div>
+      </div>
+      <div class="swiper-pagination J_HomeSliderPagination"></div>
+    </div>
+    <div class="swiper-button-prev J_HomeSliderButtonPrev">
+      <svg class="icon icon-slider-prev">
+        <use xlink:href="assets/images/icons.svg#icon-slider-prev"></use>
+      </svg>
+    </div>
+    <div class="swiper-button-next J_HomeSliderButtonNext">
+      <svg class="icon icon-slider-next">
+        <use xlink:href="assets/images/icons.svg#icon-slider-next"></use>
+      </svg>
+    </div>
+  </div>
+</div>

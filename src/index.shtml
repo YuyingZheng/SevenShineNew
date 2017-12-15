@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('includes/head.shtml', {"title": "Home | Site name"})
+
+<body id="app">
+  @@include('includes/header.shtml')
+
+  <main class="main">
+  	<div class="container">
+  		@@include('includes/widgets/slider.shtml')
+  		@@include('includes/widgets/welcome.shtml')
+  	</div>
+  </main>
+  
+  @@include('includes/footer.shtml')
+  @@include('includes/scripts.shtml')
+</body>
+
+</html>

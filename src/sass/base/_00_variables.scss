@@ -1,0 +1,143 @@
+//============================================//
+//
+// CSS Variables
+//
+//********************************************//
+:root {
+	--gap: .02rem;
+	--gutter: .03rem;
+	--title-margin: calc(var(--gap) * 6);
+	--container-padding: calc(var(--gutter) * 5);
+	--widget-padding: calc(var(--gap) * 8);
+	--widget-margin: calc(var(--gap) * 5);
+	--box-padding-x: calc(var(--gutter) * 5);
+	--box-padding-y: calc(var(--gap) * 10);
+	--footer-padding: calc(var(--gap) * 8);
+	--columns-margin: calc(var(--gap) * 5);
+	--row-margin: calc(var(--gap) * (-5));
+	--columns: 12;
+	--column-width: 12;
+
+	@media (min-width: 768px) {
+		--gap: .03rem;
+		--gutter: .06rem;
+	}
+
+	@media (min-width: 1024px) {
+		--gap: .04rem;
+		--gutter: .08rem;
+	}
+}
+
+
+
+//============================================//
+//
+// Normalize
+//
+//********************************************//
+$fonts-path: '../assets/fonts';
+$base-font-family: 'Montserrat', 'Arial', sans-serif !default;
+$extra-font-family: 'Open Sans Condensed', sans-serif !default;
+$feature-font-family: 'Dancing Script', sans-serif !default;
+$zh-cn-font: 'Microsoft YaHei', sans-serif !default;
+// font-size:625% => 1rem = 100px
+$px-to-rem: (100px / 16px) * 100%;
+$base-font-size: .16rem;
+$base-line-height: 1.2;
+
+
+
+//============================================//
+//
+// Colors
+//
+//********************************************//
+$base-font-color: #373a3c;
+$body-color: #fefefe;
+$link-color: #99c43e;
+
+$success: #5cb85c;
+$warning: #f0ad4e;
+$danger: #d9534f;
+
+$white: #fff;
+$white-opacity: rgba(255,255,255,.4);
+$light-white: #fefefe;
+$black: #000;
+$black-opacity: rgba(0,0,0,.8);
+$black-opacity-light: rgba(0,0,0,.1);
+$light-black: #111;
+$lighter-black: #222;
+$lightest-black: #333;
+$primary-gray: #362f2d;
+$gray: #999;
+$dark-gray: #282727;
+$theme-color: #99c43e;
+$primary-yellow: #fdce00;
+$primary-blue: #03A9F4;
+$light-blue: #d3e9fd;
+$box-bg-color:#efefef;
+
+$code-bg-color: #262626;
+$code-title: #f9263e;
+$code-attribute: #7fe22e;
+$code-value: #e6db74;
+$code-comment: #75715e;
+$code-class: #7fe22e;
+$code-property: #66d9d0;
+
+
+
+//============================================//
+//
+// Utilities
+//
+//********************************************//
+$radius: .04rem;
+$radius-m: .06rem;
+$radius-l: .008rem;
+
+
+
+//============================================//
+//
+// Managing transition
+//
+//********************************************//
+$primary-transition: all 0.3s linear;
+
+
+
+//============================================//
+//
+// Managing z-index
+//
+//********************************************//
+$z-indexes: (
+	'modal': 5000,
+	'sticky': 4000,
+	'dropdown': 3000,
+	'overlayer': 9,
+	'over-default': 6,
+	'default': 3,
+	'zero': 0,
+	'below': -1,
+);
+
+
+
+//============================================//	
+//
+// Managing responsive breakpoints
+//
+//********************************************//
+$breakpoints: ( 
+	'mobile': '(max-width: 767px)', 
+	'tablet': '(min-width: 768px)',
+	'desktop': '(min-width: 1024px)',
+	'large': '(min-width: 1200px)',
+	'xlarge': '(min-width: 1440px)',
+	'onlyTablet': '(min-width: 768px) and (max-width: 1023px)',
+	'noDesktop': '(max-width: 1023px)',
+);

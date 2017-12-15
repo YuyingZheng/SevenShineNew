@@ -1,0 +1,31 @@
+//============================================//
+//
+// Widget.scss
+//
+//********************************************//
+.widget{
+	padding: var(--widget-padding) 0;
+	margin-bottom: var(--widget-margin);
+	& > .title{
+		padding-bottom: .2rem;
+		margin-bottom: .2rem;
+		font-size: .3rem;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: $extra-font-family;
+		font-weight: 700;
+		background: url(../assets/images/style/widget-title-bg.png) no-repeat bottom center;
+	}
+	@include media(tablet){
+		& > .title{
+			font-size: .36rem;
+			margin-bottom: .35rem;
+		}
+	}
+	@include media(desktop){
+		& > .title{
+			font-size: .42rem;
+			margin-bottom: .45rem;
+		}
+	}
+}

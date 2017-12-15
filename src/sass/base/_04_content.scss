@@ -1,0 +1,96 @@
+//============================================//
+//
+// Content.scss
+//
+//********************************************//
+body {
+  font: #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $base-font-color;
+  font-weight: 400;
+  background: $light-white url(../assets/images/style/pattern.png) repeat 0 0;
+}
+
+a{
+  color: $link-color;
+  transition: $primary-transition;
+}
+
+::selection{ 
+  background: $theme-color; 
+  color: $light-white; 
+}
+::-moz-selection{ 
+  background: $theme-color; 
+  color: $light-white; 
+}
+::-webkit-selection {
+  background: $theme-color; 
+  color: $light-white; 
+}
+
+// Heading
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 var(--title-margin);
+  font-weight: 500;
+}
+
+h1 {
+  font-size: .4rem;
+}
+
+h2 {
+  font-size: .32rem;
+}
+
+h3 {
+  font-size: .28rem;
+}
+
+h4 {
+  font-size: .24rem;
+}
+
+h5 {
+  font-size: .2rem;
+}
+
+h6 {
+  font-size: .16rem;
+}
+
+// H5 element
+picture {
+  display: block;
+}
+
+// Image
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+
+//animations
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    transform: scale3d(.3, .3, .3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes hue {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(-360deg);
+  }
+}

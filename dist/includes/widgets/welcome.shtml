@@ -1,0 +1,39 @@
+<div class="widget widget-welcome">
+	<h3 class="title">Welcome to my personal website</h3>
+	<p class="text-center">Now were up in the big leagues getting' our turn at bat. One two three four five six seven eight Sclemeel schlemazel hasenfeffer incorporated. Love exciting and new. Come aboard were expecting you. Love life's sweetest reward Let it flow it floats back to you.But they got diff'rent strokes. It takes diff'rent strokes are the voyages of the Starship Enterprise.</p>
+	<div class="row graphic-list">
+		<div class="col-t-4">
+			<a class="item" href="#">
+				<div class="img-holder">
+					<img src="assets/uploads/graphic/01.jpg" alt="image">
+				</div>
+				<div class="text-holder">
+					<h5 class="title">Clark Street Mercantile</h5>
+					<p>By yinchen Wang</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-t-4">
+			<a class="item" href="#">
+				<div class="img-holder">
+					<img src="assets/uploads/graphic/02.jpg" alt="image">
+				</div>
+				<div class="text-holder">
+					<h5 class="title">Greg Rakozy</h5>
+					<p>By yinchen Wang</p>
+				</div>
+			</a>
+		</div>
+		<div class="col-t-4">
+			<a class="item" href="#">
+				<div class="img-holder">
+					<img src="assets/uploads/graphic/03.jpg" alt="image">
+				</div>
+				<div class="text-holder">
+					<h5 class="title">Cayton Heath</h5>
+					<p>By yinchen Wang</p>
+				</div>
+			</a>
+		</div>
+	</div>
+</div>

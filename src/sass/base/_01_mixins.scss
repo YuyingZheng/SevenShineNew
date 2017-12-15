@@ -1,0 +1,98 @@
+//============================================//
+//
+// Mixins set
+//
+//********************************************//
+// Responsive breakpoint manager
+// @access public
+// @param {String} $breakpoint - Breakpoint
+// @requires $breakpoints
+//
+
+// Media query breakpoints (Other choice: https://github.com/eduardoboucas/include-media)
+@mixin media($breakpoint) {
+	$raw-query: map-get($breakpoints, $breakpoint);
+	@if $raw-query {
+		$query: if(
+			type-of($raw-query) == "string",
+			unquote($raw-query),
+			inspect($raw-query)
+		);
+		@media #{$query} {
+			@content;
+		}
+	}
+	@else {
+		@warn "No value found for `#{$breakpoint}`. " + "Please make sure it is defined in `$breakpoints` map.";
+	}
+}
+
+// Clearfix
+@mixin clearfix() {
+  &::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+// Flexbox Grid
+@mixin flex-col($device){
+	@for $i from 1 through 12 {
+    &.col-#{$device}-#{$i} {
+      --column-width: $i;
+    }
+  }
+}
+
+@mixin flex-algin-order($device){
+	.x-align-start-#{$device} {
+	  justify-content: flex-start !important;
+	}
+	.x-align-center-#{$device} {
+	  justify-content: center !important;
+	}
+	.x-align-end-#{$device} {
+	  justify-content: flex-end !important;
+	}
+	.x-align-around-#{$device} {
+	  justify-content: space-around !important;
+	}
+	.x-align-between-#{$device} {
+	  justify-content: space-between !important;
+	}
+	.y-align-top-#{$device} {
+	  align-items: flex-start !important;
+	}
+	.y-align-middle-#{$device} {
+	  align-items: center !important;
+	}
+	.y-align-bottom-#{$device} {
+	  align-items: flex-end !important;
+	}
+	.first-item-#{$device} {
+	  order: -1 !important;
+	}
+	.last-item-#{$device} {
+	  order: 1 !important;
+	}
+}
+
+
+
+//============================================//
+//
+// Functions set
+//
+//********************************************//
+// Get a z-index value from a layer name
+// @access public
+// @param {String} $layer - Layer’s name
+// @return {Number}
+// @require $z-indexes
+//
+
+// Z-indexes
+@function z($layer) {
+	@return map-get($z-indexes, $layer);
+}

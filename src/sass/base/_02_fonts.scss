@@ -1,0 +1,84 @@
+//============================================//
+//
+// Fonts.scss
+//
+// @font-face {
+// 		font-family: 'font name';
+//		font-style: normal;
+//		font-weight: 300;
+//		src: url('#{$fonts-path}/'),
+//		src: url('#{$fonts-path}/') format('...');
+// }
+//********************************************//
+// *Note*
+// The css-comb plugin will make @font-face{src: ulr...; src: url...,url...,url...,..;} the 2 kind of "src"
+// in reverse order resulting in "@font-face" will be not working.
+// So you had better write them in reverse order in the '_02_fonts.scss' file before, then the css-comb plugin 
+// will make them in reverse order again. At last, we get the correct order.
+
+// Dancing Script 
+@font-face {
+  font-family: 'Dancing Script';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fonts-path}/dancingscript-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/dancingscript-regular-webfont.woff2') format('woff2'),
+  url('#{$fonts-path}/dancingscript-regular-webfont.woff') format('woff'),
+  url('#{$fonts-path}/dancingscript-regular-webfont.ttf') format('truetype'),
+  url('#{$fonts-path}/dancingscript-regular-webfont.svg#dancing_script_otregular') format('svg');
+  src: url('#{$fonts-path}/dancingscript-regular-webfont.eot');
+}
+
+// Montserrat Regular
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: url('#{$fonts-path}/montserrat-regular-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/montserrat-regular-webfont.woff2') format('woff2'),
+  url('#{$fonts-path}/montserrat-regular-webfont.woff') format('woff'),
+  url('#{$fonts-path}/montserrat-regular-webfont.ttf') format('truetype'),
+  url('#{$fonts-path}/montserrat-regular-webfont.svg#montserratregular') format('svg');
+  src: url('#{$fonts-path}/montserrat-regular-webfont.eot');
+}
+
+// Montserrat Bold
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$fonts-path}/montserrat-bold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/montserrat-bold-webfont.woff2') format('woff2'),
+  url('#{$fonts-path}/montserrat-bold-webfont.woff') format('woff'),
+  url('#{$fonts-path}/montserrat-bold-webfont.ttf') format('truetype'),
+  url('#{$fonts-path}/montserrat-bold-webfont.svg#montserratbold') format('svg');
+  src: url('#{$fonts-path}/montserrat-bold-webfont.eot');
+}
+
+// Open Sans Condensed Light
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 300;
+  src: url('#{$fonts-path}/opensans-condlight-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/opensans-condlight-webfont.woff2') format('woff2'),
+  url('#{$fonts-path}/opensans-condlight-webfont.woff') format('woff'),
+  url('#{$fonts-path}/opensans-condlight-webfont.ttf') format('truetype'),
+  url('#{$fonts-path}/opensans-condlight-webfont.svg#open_sanscondensed_light') format('svg');
+  src: url('#{$fonts-path}/opensans-condlight-webfont.eot');
+}
+
+
+
+// Open Sans Condensed Bold
+@font-face {
+  font-family: 'Open Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$fonts-path}/opensans-condbold-webfont.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/opensans-condbold-webfont.woff2') format('woff2'),
+  url('#{$fonts-path}/opensans-condbold-webfont.woff') format('woff'),
+  url('#{$fonts-path}/opensans-condbold-webfont.ttf') format('truetype'),
+  url('#{$fonts-path}/opensans-condbold-webfont.svg#open_sans_condensedbold') format('svg');
+  src: url('#{$fonts-path}/opensans-condbold-webfont.eot');
+}
