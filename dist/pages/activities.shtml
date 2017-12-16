@@ -7,10 +7,10 @@
 
   <main class="main">
   	<div class="container">
-  		@@include('includes/widgets/second-page-one.shtml')
+  		@@include('includes/widgets/activities.shtml')
   	</div>
   </main>
- 
+  
   @@include('includes/footer.shtml')
   @@include('includes/scripts.shtml')
 </body>

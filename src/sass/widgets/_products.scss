@@ -1,5 +1,8 @@
 .widget-product {
 	margin-bottom: 50px;
+	.global-width {
+		background-color: $body-color;
+	}
 	.title {
 		margin-top: 40px;
 	}
