@@ -2,12 +2,13 @@
 <html lang="en">
 @@include('includes/head.shtml', {"title": "Home | Site name"})
 
-<body id="app">
+<body>
   @@include('includes/header.shtml')
 
   <main class="main">
   	<div class="container">
   		@@include('includes/widgets/slider.shtml')
+  		@@include('includes/widgets/products.shtml')
   	</div>
   </main>
   

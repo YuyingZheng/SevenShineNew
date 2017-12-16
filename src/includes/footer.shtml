@@ -1,11 +1,12 @@
 <footer class="footer">
-	<div class="global-width">
-		<div class="title">
-			<p>属于外商投资企业，位于厦门软件园三</p>
-			<p>属于外商投资企业，位于厦门软件园三</p>
+	<div class="relative global-width">
+		<div class="title text-center">
+			<p>属于外商投资企业，位于厦门软件园三,属于外商投资企业</p>
+			<p>属于外商投资企业，位于厦门软件园三件园三件</p>
 			<p>属于外商投资企业，位于厦门软件园三</p>
 		</div>
 		<div class="qr-code">
+			<img src="assets/images/qrcode.png">
 		</div>
 	</div>
 </footer>

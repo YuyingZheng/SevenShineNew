@@ -4,8 +4,6 @@
 //
 //********************************************//
 .widget{
-	padding: var(--widget-padding) 0;
-	margin-bottom: var(--widget-margin);
 	& > .title{
 		padding-bottom: .2rem;
 		margin-bottom: .2rem;

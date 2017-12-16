@@ -1,5 +1,4 @@
 <div class="widget widget-slider">
-  <h3 class="title">Here We Go</h3>
   <div class="inner">
     <div class="swiper-container J_HomeSlider">
       <div class="swiper-wrapper">
@@ -16,14 +15,14 @@
       <div class="swiper-pagination J_HomeSliderPagination"></div>
     </div>
     <div class="swiper-button-prev J_HomeSliderButtonPrev">
-      <svg class="icon icon-slider-prev">
+      <!-- svg class="icon icon-slider-prev">
         <use xlink:href="assets/images/icons.svg#icon-slider-prev"></use>
-      </svg>
+      </svg> -->
     </div>
     <div class="swiper-button-next J_HomeSliderButtonNext">
-      <svg class="icon icon-slider-next">
+      <!-- <svg class="icon icon-slider-next">
         <use xlink:href="assets/images/icons.svg#icon-slider-next"></use>
-      </svg>
+      </svg> -->
     </div>
   </div>
 </div>

@@ -1,0 +1,44 @@
+<div class="widget widget-product">
+	<div class="global-width">
+		 <div class="title text-center">
+		 	<h2>进入AR新视界</h2>
+		  <h3>学习原来如此有趣，生活就奇妙无比</h3>
+		 </div>
+		<div class="product-wrap text-center">
+			<div class="product">
+				<img src="assets/images/product/1.jpg">
+				<div class="text text-left">
+				  <h3>灵活有趣的知识教具</h3>
+			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+				</div>
+			</div>
+  	</div>
+		<div class="product-wrap">
+			<div class="product">
+				<img src="assets/images/product/2.jpg">
+			  <div class="text">
+				  <h3>灵活有趣的知识教具</h3>
+			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+				</div>
+			</div>
+  	</div>
+    <div class="product-wrap">
+			<div class="product">
+				<img src="assets/images/product/3.jpg">
+        <div class="text">
+				  <h3>灵活有趣的知识教具</h3>
+			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+				</div>
+			</div>
+  	</div>
+  	<div class="product-wrap">
+			<div class="product">
+				<img src="assets/images/product/4.jpg">
+				<div class="text">
+				  <h3>灵活有趣的知识教具</h3>
+			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+				</div>
+			</div>
+  	</div>
+	</div>
+</div>
