@@ -17,6 +17,9 @@ html {
 //
 body {
   margin: 0;
+  >* {
+    box-sizing: border-box;
+  }
 }
 
 //
@@ -39,7 +42,10 @@ h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
-
+h3 {
+   font-size: 12px;
+   color: $base-title-color;
+  }
 //
 // Add the correct display in IE 9-.
 // 1. Add the correct display in IE.
@@ -389,4 +395,8 @@ template {
 //
 [hidden] {
   display: none;
+}
+
+p {
+  font-size: 10px;
 }

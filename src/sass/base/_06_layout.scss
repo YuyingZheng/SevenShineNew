@@ -6,25 +6,14 @@
 .global-width {
   width: 1140px;
   margin: 0 auto;
-  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.widget-width {
+  
 }
 .relative {
   position: relative;
 }
-
-//============================================//
-//  Flexbox sticky footer
-//============================================//
-
-.header,
-.footer {
-
-}
-
-.main {
-
-}
-
 
 //============================================//
 //  Header
@@ -40,6 +29,7 @@
   .logo {
     img {
       float: left;
+      width: initial;
     }
     .company {
       float: left;
@@ -67,6 +57,7 @@
       margin: 0.14rem 0.35rem;
       text-align: center;
       border-bottom: .02rem solid transparent;
+      transition: all 2s ease-out;
       a {
         display: block;
         padding: 0.02rem 0;
@@ -98,7 +89,7 @@
 //  Main
 //============================================//
 .main {
-  min-height: 800px;
+  min-height: 500px;
 }
 
 
@@ -109,14 +100,12 @@
   color: $base-font-color;
   background-color: #ffffff;
   font-size: 10px;
-  .title {
-    margin-top: 0.4rem;
-    margin-bottom: 0.4rem;
-  }
+  padding-top: 40px;
+  padding-bottom: 40px;
   .qr-code {
     position: absolute;
     right: 0.6rem;
-    bottom: 0.2rem;
+    bottom: 0.05rem;
   }
   .scroll-top{
     display: flex;

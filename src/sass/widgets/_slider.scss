@@ -1,4 +1,6 @@
 .widget-slider{
+	// margin-bottom: 70px;
+	// height: 280px;
 	.inner{
 		position: relative;
 	}
@@ -6,12 +8,13 @@
 		// border: .06rem solid $black-opacity-light;
 	}
 	.swiper-slide{
+		height: auto;
 		a{
 			display: block;
 			height: 2rem;
 		}
 		img{
-			height: 100%;
+			height: auto;
 			width: 100%;
 		}
 	}
@@ -80,10 +83,19 @@
 	.swiper-pagination-bullet{
 		background-color: $light-white;
 		opacity: 1;
+		
 	}
 	.swiper-pagination-bullet-active{
 		background-color: $primary-blue;
 	}
+	.swiper-container-horizontal {
+		  > .swiper-pagination-bullets,
+		  .swiper-pagination-custom, 
+		  .swiper-pagination-fraction {
+		  	bottom: 90px;
+		  }
+		} 
+
 	// @include media(tablet){
 	// 	.inner{
 	// 		padding-top: 0;

@@ -42,6 +42,16 @@ $(function() {
 			$('html,body').animate({scrollTop: '0'}, 800);
 		});
 	})();
+  
+  // nav toggle
+   (function handleNavToggle(){
+		$('.nav li').click(function(e){
+			// var nav = $(this).parents('.nav');
+			$('.nav li').removeClass('active')
+	    $(this).addClass('active')
+		});
+	})();
+
 
 })
 

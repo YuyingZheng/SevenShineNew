@@ -4,7 +4,7 @@
       <a href="" class="clearfix">
         <img src="assets/images/logo.png">
         <div class="company">
-          <span class="ch-name"s>七泽科技</span>
+          <span class="ch-name">七泽科技</span>
           <span class="eg-name">SEVEN SHINE</span>
         </div>  
       </a>
@@ -12,7 +12,7 @@
     <nav class="nav ">
       <ul class="clearfix">
          <li class="active"><a href="#">首页</a></li>
-         <li><a href="#">关于七泽</a></li>
+         <li><a href="file://F:/SevenShineNew/dist/about.html">关于七泽</a></li>
          <li><a href="#">加入七泽</a></li>
          <li><a href="#">七泽动态</a></li>
          <li><a href="#">联系我们</a></li>

@@ -36,6 +36,7 @@
   }
 }
 
+
 // Flexbox Grid
 @mixin flex-col($device){
 	@for $i from 1 through 12 {
@@ -96,3 +97,4 @@
 @function z($layer) {
 	@return map-get($z-indexes, $layer);
 }
+
