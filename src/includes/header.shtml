@@ -12,10 +12,10 @@
     <nav class="nav ">
       <ul class="clearfix">
          <li class="active"><a href="#">首页</a></li>
-         <li><a href="file://F:/SevenShineNew/dist/about.html">关于七泽</a></li>
-         <li><a href="#">加入七泽</a></li>
-         <li><a href="#">七泽动态</a></li>
-         <li><a href="#">联系我们</a></li>
+         <li><a href="about.html">关于七泽</a></li>
+         <li><a href="join.html">加入七泽</a></li>
+         <li><a href="activities.html">七泽动态</a></li>
+         <li><a href="address.html">联系我们</a></li>
       </ul>
     </nav>
   </div>
