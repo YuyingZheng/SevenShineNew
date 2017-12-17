@@ -1343,6 +1343,16 @@ button.swiper-pagination-bullet{
 	margin-top: 40px;
 }
 
+.businesscard{
+	padding: 20px 20px 56px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.businesscard .img-wrap img{
+	width: initial;
+}
+
 .limited-height{
 	max-height: 22px;
 	overflow: hidden;
@@ -1405,6 +1415,23 @@ button.swiper-pagination-bullet{
 	margin-right: 10px;
 	border: 1px solid #d5d5d5;
 	border-radius: 18px;
+}
+
+.iw_poi_title{
+	padding-right: 13px;
+	overflow: hidden;
+	font-size: 14px;
+	font-weight: bold;
+	color: #c52;
+	white-space: nowrap;
+}
+
+.iw_poi_content{
+	padding-top: 4px;
+	overflow: visible;
+	font: 12px arial,sans-serif;
+	word-wrap: break-word;
+	white-space: -moz-pre-wrap;
 }
 
 .product-detail{

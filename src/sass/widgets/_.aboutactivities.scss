@@ -46,6 +46,16 @@
 		}
 	}
 }
+.businesscard {
+	padding: 20px 20px 56px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	.img-wrap{
+    img {
+    width: initial;
+    }
+	}
+}
 .limited-height {
 	  max-height: 22px;
     overflow: hidden;
