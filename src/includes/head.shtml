@@ -1,7 +1,7 @@
 <head>
 	<!-- Required meta tags always come first -->
 	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<!-- 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="format-detection" content="telephone=no">
 	<title>@@title</title>
@@ -12,5 +12,4 @@
     document.createElement( "picture" );
 	</script>	
 	<script src="js/vendors/picturefill.min.js" async></script>
-	<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>

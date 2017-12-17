@@ -1,15 +1,10 @@
 .left-banner,
 .right-banner {
- 
+ width: calc(49% - 40px);
 }
 .left-banner {
-	 width: 49%;
 	border-right: dashed 1px #d5d5d5;
-}
-.right-banner {
-	width: calc(49% - 80px);
-	padding-left: 80px;
-	padding-top: 34px;
+	padding-right: 40px;
 }
 .introduction {
 	background: #fffffff;
@@ -24,6 +19,7 @@
 		margin-bottom: 10px;
 		margin-top: 10px;
 		font-size: 10px;
+		line-height: 22px;
 		label {
 			display: inline-block;
 			padding: 4px 6px;

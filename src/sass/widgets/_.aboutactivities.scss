@@ -36,14 +36,22 @@
     width: initial;
     }
 	}
-	.poem {
-		.para {
-			line-height: 22px;
-		}
-		+ .poem {
-			margin-top: 40px;
 
-		}
+	.para {
+		line-height: 22px;
+	}
+	+ .poem {
+		margin-top: 40px;
+
+	}
+	
+	.readMore {
+		display: block;
+		margin-top: 20px;
+		text-align: center;
+		color: $active-font-color;
+		font-size: 12px;
+		font-weight: bold;
 	}
 }
 .businesscard {

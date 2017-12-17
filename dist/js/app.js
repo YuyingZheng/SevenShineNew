@@ -44,14 +44,28 @@ $(function() {
 	})();
   
   // nav toggle
-   (function handleNavToggle(){
+   (function ToggleNav(){
 		$('.nav li').click(function(e){
-			// var nav = $(this).parents('.nav');
-			$('.nav li').removeClass('active')
-	    $(this).addClass('active')
+    		$('.nav li').removeClass('active')
+    	    $(this).addClass('active')
 		});
 	})();
-
+   
+   //READ MORE
+ 	(function ReadMore(){
+		$('.readMore').click(function(e){
+      target = $(this).next('.para')
+		  if(!target.hasClass('hidden')) {
+        	target.addClass('hidden')
+        	$(this).text('查看更多')
+		  }
+		  else {
+		  	target.removeClass('hidden')
+		  	$(this).text('隐藏更多')
+		  }
+		});
+	})();
+  
 
 })
 

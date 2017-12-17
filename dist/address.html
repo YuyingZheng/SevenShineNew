@@ -4,7 +4,7 @@
 <head>
     <!-- Required meta tags always come first -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> -->
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="format-detection" content="telephone=no">
     <title>Home | Site name</title>
@@ -15,7 +15,6 @@
         document.createElement("picture");
     </script>
     <script src="js/vendors/picturefill.min.js" async></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 </head>
 
 <body>
@@ -32,11 +31,11 @@
             </h1>
             <nav class="nav ">
                 <ul class="clearfix">
-                    <li class="active"><a href="#">首页</a></li>
-                    <li><a href="file://F:/SevenShineNew/dist/about.html">关于七泽</a></li>
-                    <li><a href="#">加入七泽</a></li>
-                    <li><a href="#">七泽动态</a></li>
-                    <li><a href="#">联系我们</a></li>
+                    <li><a href="address.html">联系我们</a></li>
+                    <li><a href="activities.html">七泽动态</a></li>
+                    <li><a href="join.html">加入七泽</a></li>
+                    <li><a href="about.html">关于七泽</a></li>
+                    <li class="active"><a href="index.html">首页</a></li>
                 </ul>
             </nav>
         </div>
@@ -45,6 +44,7 @@
 
     <main class="main">
         <div class="container">
+            <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
             <div class="global-width businesscard">
                 <div class="company-intro">
                     <h3>厦门七泽文娱科技有限公司</h3>
@@ -53,13 +53,11 @@
                     <p><span>EMAIL：</span>JJFID@cnjiuze</p>
                     <p><span>通讯地址：</span>厦门市松悦路8号（仙岳路与连岳路交汇处）</p>
                 </div>
-                <div class="img-wrap sitemap">
-                    <iframe src="map.html" width="600" height="300" frameborder="0" scrolling="no">
-			  <body>
-			  <!--百度地图容器-->
-			   <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
-			  </body>
-	    </iframe>
+                <div class="img-wrap sitemap" width="600" height="300">
+
+                    <!--百度地图容器-->
+                    <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
+
                 </div>
             </div>
 

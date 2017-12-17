@@ -1,3 +1,4 @@
+<script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
 <div class="global-width businesscard">
 		<div class="company-intro">
 			<h3>厦门七泽文娱科技有限公司</h3>
@@ -6,13 +7,11 @@
 			<p><span>EMAIL：</span>JJFID@cnjiuze</p>
 			<p><span>通讯地址：</span>厦门市松悦路8号（仙岳路与连岳路交汇处）</p>
 		</div>
-		<div class="img-wrap sitemap">
-			<iframe src="map.html" width="600" height="300" frameborder="0" scrolling="no">
-			  <body>
+		<div class="img-wrap sitemap"  width="600" height="300">
+			
 			  <!--百度地图容器-->
 			   <div style="width:697px;height:550px;border:#ccc solid 1px;" id="dituContent"></div>
-			  </body>
-	    </iframe>
+
 	  </div>
 </div>
 

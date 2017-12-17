@@ -31,7 +31,11 @@
 		background-color: #68BAFE;
 		@extend .rounded-circle;
 		&:hover{
-			background-color: $theme-color;
+			background-color: #b3becd;
+			 &:before,
+			 &:after {
+			 	border-color: #169bff;
+			 }
 		}
 		.icon{
 			color: $light-white;
