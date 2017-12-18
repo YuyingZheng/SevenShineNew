@@ -45,10 +45,21 @@ $(function() {
   
   // nav toggle
    (function ToggleNav(){
-		$('.nav li').click(function(e){
-    		$('.nav li').removeClass('active')
-    	    $(this).addClass('active')
-		});
+   	var urlstr = location.href;
+   	var urlstatus = false;
+   	$('.nav li a').each(function() {
+   		if((urlstr + '/').indexOf($(this).attr('href'))> -1 && $(this).attr('href')!='') {
+   			  $(this).parents('.nav li').addClass('active');
+   			   urlstatus = true;  
+   		}
+   		else {  
+          $(this).parents('.nav li').removeClass('active');  
+     	}})
+   	  // if (!urlstatus) {$('.nav li').eq(5).addClass('active'); }  
+		// $('.nav li').click(function(e){
+  //   		$('.nav li').removeClass('active')
+  //   	    $(this).addClass('active')
+		// });
 	})();
    
    //READ MORE

@@ -657,6 +657,7 @@ p{
 }
 
 .main{
+	min-width: 1140px;
 	min-height: 500px;
 }
 
@@ -1430,21 +1431,50 @@ button.swiper-pagination-bullet{
 	border-radius: 18px;
 }
 
-.iw_poi_title{
-	padding-right: 13px;
-	overflow: hidden;
-	font-size: 14px;
-	font-weight: bold;
-	color: #c52;
-	white-space: nowrap;
+span.BMap_Marker.BMap_noprint{
+	background: url("/assets/images/mapMaker.png") no-repeat center !important;
+	background-size: 16px 25px !important;
 }
 
-.iw_poi_content{
-	padding-top: 4px;
-	overflow: visible;
-	font: 12px arial,sans-serif;
-	word-wrap: break-word;
-	white-space: -moz-pre-wrap;
+.sitemap img{
+	max-width: initial;
+}
+
+.sitemap img[src*="close.gif"],
+.sitemap img[src*="iws3.png"]{
+	display: none;
+}
+
+.sitemap .pop > div{
+	display: none;
+}
+
+.sitemap .pop > div:nth-child(8),
+.sitemap .pop > div:nth-child(9){
+	display: block;
+}
+
+.sitemap .pop > div:nth-child(8){
+	width: 0 !important;
+	height: 0 !important;
+	margin-top: 19px;
+	overflow: hidden;
+	border: solid transparent;
+	border-width: 0 0 35px 20px;
+	border-left-color: rgba(0, 0, 0, .75);
+}
+
+.sitemap .pop > div:nth-child(9){
+	height: auto !important;
+	padding: 30px 15px;
+	margin: 10px 0 0 108px;
+	color: #fff;
+	background: rgba(0, 0, 0, .75);
+}
+
+.sitemap .BMap_bubble_content{
+	font-size: 14px;
+	line-height: 1.8;
 }
 
 .product-detail{
