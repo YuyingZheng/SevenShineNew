@@ -1,21 +1,18 @@
 .widget-slider{
-	// margin-bottom: 70px;
-	// height: 280px;
 	.inner{
 		position: relative;
 	}
 	.swiper-container{
-		// border: .06rem solid $black-opacity-light;
 	}
 	.swiper-slide{
-		height: 300px;
+		height: 3.50rem;
 		width: 100% !important;
 		a{
 			display: block;
-			height: 2rem;
+			height: 100%;
 		}
 		img{
-			height: auto;
+			height: 100%;
 			width: 100%;
 		}
 	}
@@ -55,34 +52,26 @@
     	left: 50%;
     	margin-left: -5px;
     	margin-top: -5px;
-    	border-top: solid 2px #ffffff;
-    	border-right: solid 2px #ffffff;
+    	border-top: solid 2px #fff;
+    	border-right: solid 2px #fff;
     	transform:rotate(-135deg);
-			-ms-transform:rotate(-135deg); 	/* IE 9 */
-			-moz-transform:rotate(-135deg); 	/* Firefox */
-			-webkit-transform:rotate(-135deg); /* Safari 和 Chrome */
-			-o-transform:rotate(-135deg); 	/* Opera */
     }
 	}
 	.swiper-button-next{
 		right: 10%;
-		 &:before {
+		&:before {
     	content: '';
     	position: absolute;
     	display: block;
     	width: 10px;
     	height: 10px;
     	top: 50%;
-    	left: 50%;
-    	margin-left: -5px;
+    	right: 50%;
+    	margin-right: -5px;
     	margin-top: -5px;
-    	border-top: solid 2px #ffffff;
-    	border-right: solid 2px #ffffff;
+    	border-top: solid 2px #fff;
+    	border-right: solid 2px #fff;
     	transform:rotate(45deg);
-			-ms-transform:rotate(45deg); 	/* IE 9 */
-			-moz-transform:rotate(45deg); 	/* Firefox */
-			-webkit-transform:rotate(45deg); /* Safari 和 Chrome */
-			-o-transform:rotate(45deg); 	/* Opera */
     }
 	}
 	.swiper-pagination-bullet{
@@ -94,66 +83,10 @@
 		background-color: $primary-blue;
 	}
 	.swiper-container-horizontal {
-		  > .swiper-pagination-bullets,
-		  .swiper-pagination-custom, 
+		> .swiper-pagination-bullets,
+		  .swiper-pagination-custom,
 		  .swiper-pagination-fraction {
 		  	bottom: 30px;
-		  }
-		} 
-
-	// @include media(tablet){
-	// 	.inner{
-	// 		padding-top: 0;
-	// 	}
-	// 	.swiper-slide a{
-	// 		height: 3.6rem;
-	// 	}
-	// 	.swiper-button-prev,
-	// 	.swiper-button-next{
-	// 		top: 50%;
-	// 		width: .5rem;
-	// 		height: .5rem;
-	// 		margin-top: -.23rem;
-	// 	}
-	// 	.swiper-button-prev{
-	// 		left: 1rem;
-	// 		margin-left: 0;
-	// 	}
-	// 	.swiper-button-next{
-	// 		right: 1rem;
-	// 		margin-right: 0;
-	// 	}
-	// }
-	@include media(desktop){
-		.swiper-slide a{
-			height: 4.2rem;
 		}
 	}
-	// @include media(xlarge){
-	// 	.swiper-container{
-	// 		border-width: .08rem;
-	// 	}
-	// 	.swiper-slide a{
-	// 		height: 4.8rem;
-	// 	}
-	// 	.swiper-button-prev,
-	// 	.swiper-button-next{
-	// 		width: .48rem;
-	// 		height: .48rem;
-	// 		margin-top: -.29rem;
-	// 		.icon{
-	// 			color: $light-white;
-	// 			width: .2rem;
-	// 			height: .2rem;
-	// 		}
-	// 	}
-	// 	.swiper-button-prev{
-	// 		left: -1.2rem;
-	// 		margin-left: 0;
-	// 	}
-	// 	.swiper-button-next{
-	// 		right: -1.2rem;
-	// 		margin-right: 0;
-	// 	}
-	// }
 }

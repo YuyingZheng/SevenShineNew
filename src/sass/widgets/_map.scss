@@ -26,6 +26,7 @@ span.BMap_Marker.BMap_noprint {
 }
 
 .sitemap {
+   padding-top: 20px;
 	img {
 		max-width: initial;
 	}
@@ -33,11 +34,6 @@ span.BMap_Marker.BMap_noprint {
     img[src*="iws3.png"] {
         display:none;
     }
-    // .pop {
-    //     >div:not('.BMap_bubble_content'){
-    //       display: none;
-    //     }
-    // }
     .pop > div {
         display: none;
     }

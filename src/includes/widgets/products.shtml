@@ -1,59 +1,56 @@
 <div class="widget widget-product">
-	<div class="global-width clearfix">
-		 <div class="title text-center">
-		 	<h2>进入AR新视界</h2>
-		  <h3>学习原来如此有趣，生活就奇妙无比</h3>
-		 </div>
-		<div class="product-wrap text-center">
-			<div class="product">
-				<div class="product-img">
-					<img src="assets/images/product/1.jpg">
-					<span href="#" class="img-tip">AR EDU LAB</span>
-					<a href="second-page-one.html"></a>
-				</div>
-				<div class="text text-left">
-				  <h3>灵活有趣的知识教具</h3>
-			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
-				</div>
-			</div>
-  	</div>
-		<div class="product-wrap">
-			<div class="product">
-				<div class="product-img">
-					<img src="assets/images/product/2.jpg">
-					<span href="#" class="img-tip">AR ENT</span>
-					<a href="second-page-two.html"></a>
-				</div>
-			  <div class="text">
-				  <h3>灵活有趣的知识教具</h3>
-			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
-				</div>
-			</div>
-  	</div>
-    <div class="product-wrap">
-			<div class="product">
-				<div class="product-img">
-					<img src="assets/images/product/3.jpg">
-					<span href="#" class="img-tip">AR GAME CENTER</span>
-					<a href="second-page-three.html"></a>
-				</div>
-        <div class="text">
-				  <h3>灵活有趣的知识教具</h3>
-			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
-				</div>
-			</div>
-  	</div>
-  	<div class="product-wrap">
-			<div class="product">
-				<div class="product-img">
-					<img src="assets/images/product/4.jpg">
-					<span href="#" class="img-tip">AR + LBS(旅游)</span>
-				</div>
-				<div class="text">
-				  <h3>灵活有趣的知识教具</h3>
-			  	<p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
-				</div>
-			</div>
-  	</div>
-	</div>
+    <div class="global-width clearfix">
+        <div class="title text-center">
+            <h2>进入AR新视界</h2>
+            <h3>学习原来如此有趣，生活就奇妙无比</h3>
+        </div>
+        <div class="product-wrap">
+            <div class="product">
+                <a class="product-img" href="second-page-one.html">
+                    <img src="assets/images/product/1.jpg">
+                    <span href="#" class="img-tip">AR EDU LAB</span>
+                </a>
+                <div class="text text-left">
+                    <h3>灵活有趣的知识教具</h3>
+                    <p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap">
+            <div class="product">
+                <a class="product-img" href="second-page-two.html">
+                    <img src="assets/images/product/2.jpg">
+                    <span href="#" class="img-tip">AR ENT</span>
+                </a>
+                <div class="text">
+                    <h3>灵活有趣的知识教具</h3>
+                    <p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap">
+            <div class="product">
+                <a class="product-img" href="second-page-three.html">
+                    <img src="assets/images/product/3.jpg">
+                    <span href="#" class="img-tip">AR GAME CENTER</span>
+                </a>
+                <div class="text">
+                    <h3>灵活有趣的知识教具</h3>
+                    <p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+                </div>
+            </div>
+        </div>
+        <div class="product-wrap">
+            <div class="product">
+                <a class="product-img" href="#">
+                    <img src="assets/images/product/4.jpg">
+                    <span href="#" class="img-tip">AR + LBS(旅游)</span>
+                </a>
+                <div class="text">
+                    <h3>灵活有趣的知识教具</h3>
+                    <p>这是一款以AR技术为主导的,为少年儿童提供趣味教科玩具的软件，它不仅能为..</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

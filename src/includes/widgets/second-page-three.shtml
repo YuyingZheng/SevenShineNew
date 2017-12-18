@@ -1,6 +1,6 @@
 <div class="global-width product-detail text-center">
   <div class="img-wrap">
-    <a href="#"><img src="assets/images/secondpage/3.jpg" alt="images"></a>
+    <img src="assets/images/secondpage/3.jpg" alt="images">
   </div>
   <div class="aboutGame text-left">
 	   <h3>AR ENT</h3>

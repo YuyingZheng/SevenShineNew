@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @font-face{
 	font-family: "Dancing Script";
 	font-style: normal;
@@ -434,7 +433,7 @@ p{
 }
 
 .list-reset,
-.header .nav li{
+.header .nav{
 	padding-left: 0;
 	margin-top: 0;
 	margin-bottom: 0;
@@ -570,10 +569,14 @@ p{
 	display: none;
 }
 
+body{
+	min-width: 1024px;
+}
+
 .global-width{
 	width: 1000px;
+	padding: 0 12px;
 	margin: 0 auto;
-	background-color: #fff;
 }
 
 .relative{
@@ -585,48 +588,56 @@ p{
 }
 
 .header{
+	padding: 10px 0;
 	background-color: #fff;
 }
 
 .header h1{
 	float: left;
-	margin-top: .08rem;
+	margin-top: 0;
 	margin-bottom: 0;
 	margin-left: .16rem;
 }
 
-.header .logo img{
+.header .logo-container .logo{
 	float: left;
-	width: initial;
+	width: .27rem;
+	height: .43rem;
 }
 
-.header .logo .company{
+.header .logo-container .logo img{
+	width: 100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.header .logo-container .company{
 	float: left;
 	margin-left: 10px;
 	color: #000;
 	text-align: center;
 }
 
-.header .logo .ch-name{
+.header .logo-container .ch-name{
 	display: block;
 	font-size: 26px;
+	font-weight: 700;
 }
 
-.header .logo .eg-name{
+.header .logo-container .eg-name{
 	display: block;
 	font-size: 12px;
 }
 
-.header .nav ul{
+.header .nav{
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
 
 .header .nav li{
-	float: right;
-	margin: .14rem .35rem;
+	display: inline-block;
+	padding: .1rem .35rem;
 	text-align: center;
-	border-bottom: .02rem solid transparent;
 	-webkit-transition: all 2s ease-out;
 	        transition: all 2s ease-out;
 }
@@ -635,44 +646,48 @@ p{
 	display: block;
 	padding: .02rem 0;
 	font-size: 12px;
+	border-bottom: .02rem solid transparent;
 }
 
-.header .nav li.active,
-.header .nav li:hover{
+.header .nav li a.active,
+.header .nav li a:hover{
+	color: #1787fe;
 	border-bottom-color: #1787fe;
 }
 
-.header .nav li.active a,
-.header .nav li:hover a{
-	color: #1787fe;
-}
-
-.header .nav-link{
-	display: block;
-	padding: .08rem .1rem;
-	font-family: "Open Sans Condensed", sans-serif;
-	font-weight: 700;
-	text-align: center;
-	text-decoration: none;
-}
-
 .main{
-	min-width: 1140px;
-	min-height: 500px;
+	min-width: 1024px;
+	padding-bottom: 1.56rem;
 }
 
 .footer{
-	padding-top: 40px;
-	padding-bottom: 40px;
 	font-size: 10px;
 	color: #909090;
+}
+
+.footer .inner{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
 	background-color: #fff;
+}
+
+.footer .inner .relative{
+	padding-top: 40px;
+	padding-bottom: 40px;
 }
 
 .footer .qr-code{
 	position: absolute;
 	right: .6rem;
 	bottom: .05rem;
+}
+
+.footer .qr-code p{
+	font-size: 13px;
+	color: #000;
 }
 
 .footer .scroll-top{
@@ -1297,10 +1312,15 @@ button.swiper-pagination-bullet{
 }
 
 .aboutactive{
-	position: relative;
-	padding: 20px 20px 56px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+.aboutactive .article{
+	position: relative;
+	padding: 20px 20px 56px;
+	margin-bottom: .2rem;
+	background-color: #fff;
 }
 
 .aboutactive .date{
@@ -1320,11 +1340,6 @@ button.swiper-pagination-bullet{
 	font-size: 12px;
 	line-height: 18px;
 	color: #fff;
-}
-
-.aboutactive:last-child{
-	padding-bottom: 2px;
-	margin-bottom: 0;
 }
 
 .aboutactive h3{
@@ -1361,6 +1376,7 @@ button.swiper-pagination-bullet{
 	padding: 20px 20px 56px;
 	margin-top: 20px;
 	margin-bottom: 20px;
+	background: #fff;
 }
 
 .businesscard .img-wrap img{
@@ -1405,7 +1421,7 @@ button.swiper-pagination-bullet{
 }
 
 .introduction{
-	padding: 38px 40px;
+	padding: 28px 40px 38px;
 	margin-bottom: 78px;
 	background: #ffff;
 }
@@ -1434,6 +1450,10 @@ button.swiper-pagination-bullet{
 span.BMap_Marker.BMap_noprint{
 	background: url("/assets/images/mapMaker.png") no-repeat center !important;
 	background-size: 16px 25px !important;
+}
+
+.sitemap{
+	padding-top: 20px;
 }
 
 .sitemap img{
@@ -1482,6 +1502,7 @@ span.BMap_Marker.BMap_noprint{
 	padding: 0 50px 38px 50px;
 	margin-top: 20px;
 	margin-bottom: 80px;
+	background: #fff;
 }
 
 .product-detail .img-wrap{
@@ -1533,6 +1554,7 @@ span.BMap_Marker.BMap_noprint{
 
 .widget-product .product-wrap .product-img{
 	position: relative;
+	display: block;
 }
 
 .widget-product .product-wrap .product-img:hover .img-tip{
@@ -1552,15 +1574,6 @@ span.BMap_Marker.BMap_noprint{
 	text-align: left;
 	text-indent: 12px;
 	background-color: #1787fe;
-}
-
-.widget-product .product-wrap .product-img a{
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	cursor: pointer;
 }
 
 .widget-product .product-wrap .product img{
@@ -1583,17 +1596,17 @@ span.BMap_Marker.BMap_noprint{
 
 .widget-slider .swiper-slide{
 	width: 100% !important;
-	height: 300px;
+	height: 3.50rem;
 }
 
 .widget-slider .swiper-slide a{
 	display: block;
-	height: 2rem;
+	height: 100%;
 }
 
 .widget-slider .swiper-slide img{
 	width: 100%;
-	height: auto;
+	height: 100%;
 }
 
 .widget-slider .swiper-button-prev,
@@ -1644,15 +1657,8 @@ span.BMap_Marker.BMap_noprint{
 	content: "";
 	border-top: solid 2px #fff;
 	border-right: solid 2px #fff;
-	/* Firefox */
 	-webkit-transform: rotate(-135deg);
-	/* IE 9 */
-	   -moz-transform: rotate(-135deg);
-	    -ms-transform: rotate(-135deg);
-	/* Safari 和 Chrome */
-	     -o-transform: rotate(-135deg);
 	        transform: rotate(-135deg);
-	/* Opera */
 }
 
 .widget-slider .swiper-button-next{
@@ -1662,24 +1668,17 @@ span.BMap_Marker.BMap_noprint{
 .widget-slider .swiper-button-next:before{
 	position: absolute;
 	top: 50%;
-	left: 50%;
+	right: 50%;
 	display: block;
 	width: 10px;
 	height: 10px;
 	margin-top: -5px;
-	margin-left: -5px;
+	margin-right: -5px;
 	content: "";
 	border-top: solid 2px #fff;
 	border-right: solid 2px #fff;
-	/* Firefox */
 	-webkit-transform: rotate(45deg);
-	/* IE 9 */
-	   -moz-transform: rotate(45deg);
-	    -ms-transform: rotate(45deg);
-	/* Safari 和 Chrome */
-	     -o-transform: rotate(45deg);
 	        transform: rotate(45deg);
-	/* Opera */
 }
 
 .widget-slider .swiper-pagination-bullet{
@@ -1695,12 +1694,6 @@ span.BMap_Marker.BMap_noprint{
 .widget-slider .swiper-container-horizontal .swiper-pagination-custom,
 .widget-slider .swiper-container-horizontal .swiper-pagination-fraction{
 	bottom: 30px;
-}
-
-@media (min-width: 1024px){
-	.widget-slider .swiper-slide a{
-		height: 4.2rem;
-	}
 }
 
 .widget-welcome .graphic-list{

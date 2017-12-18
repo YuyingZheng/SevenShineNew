@@ -1,22 +1,23 @@
 <header class="header">
   <div class="global-width clearfix">
-    <h1 class="logo">
-      <a href="" class="clearfix">
-        <img src="assets/images/logo.png">
+    <h1 class="logo-container left">
+      <a href="index.html" class="clearfix">
+        <div class="logo">
+          <img src="assets/images/logo.png" alt="logo">
+        </div>
         <div class="company">
           <span class="ch-name">七泽科技</span>
           <span class="eg-name">SEVEN SHINE</span>
         </div>  
       </a>
     </h1>
-    <nav class="nav ">
-      <ul class="clearfix">
-       <li><a href="address.html">联系我们</a></li>
-       <li><a href="activities.html">七泽动态</a></li>
-       <li><a href="join.html">加入七泽</a></li>
-       <li><a href="about.html">关于七泽</a></li>
-       <li><a href="index.html">首页</a></li>     
-      </ul>
-    </nav>
+
+    <ul class="nav right">
+     <li><a href="index.html">首页</a></li>
+     <li><a href="about.html">关于七泽</a></li>
+     <li><a href="join.html">加入七泽</a></li>
+     <li><a href="activities.html">七泽动态</a></li>
+     <li><a href="address.html">联系我们</a></li>
+    </ul>
   </div>
 </header>

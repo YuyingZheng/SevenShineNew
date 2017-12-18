@@ -1,12 +1,15 @@
 <footer class="footer">
-	<div class="relative global-width">
-		<div class="title text-center">
-			<p>属于外商投资企业，位于厦门软件园三,属于外商投资企业</p>
-			<p>属于外商投资企业，位于厦门软件园三件园三件</p>
-			<p>属于外商投资企业，位于厦门软件园三</p>
-		</div>
-		<div class="qr-code">
-			<img src="assets/images/qrcode.png">
+	<div class="inner">
+		<div class="relative global-width">
+			<div class="title text-center">
+				<p>属于外商投资企业，位于厦门软件园三,属于外商投资企业</p>
+				<p>属于外商投资企业，位于厦门软件园三件园三件</p>
+				<p>属于外商投资企业，位于厦门软件园三</p>
+			</div>
+			<div class="qr-code">
+				<img src="assets/images/qrcode.png">
+				<p class="text-center">微信关注我们</p>
+			</div>
 		</div>
 	</div>
 </footer>

@@ -49,11 +49,11 @@ $(function() {
    	var urlstatus = false;
    	$('.nav li a').each(function() {
    		if((urlstr + '/').indexOf($(this).attr('href'))> -1 && $(this).attr('href')!='') {
-   			  $(this).parents('.nav li').addClass('active');
+   			  $(this).addClass('active');
    			   urlstatus = true;  
    		}
    		else {  
-          $(this).parents('.nav li').removeClass('active');  
+          $(this).removeClass('active');  
      	}})
    	  // if (!urlstatus) {$('.nav li').eq(5).addClass('active'); }  
 		// $('.nav li').click(function(e){
