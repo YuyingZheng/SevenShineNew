@@ -56,8 +56,14 @@
             padding-left: 12px;
             padding-right: 12px;
             line-height: 18px;
+            min-height: 80px;
             h3 {
-                font-size: 16px;
+                font-size: 12px;
+                margin: 10px 0 4px;
+            }
+            p {
+            margin-bottom: 0;
+            margin-top: 4px;
             }
         }
     }

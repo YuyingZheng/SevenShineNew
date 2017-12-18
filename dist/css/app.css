@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face{
 	font-family: "Dancing Script";
 	font-style: normal;
@@ -43,9 +44,43 @@
 	src: url("../assets/fonts/opensans-condbold-webfont.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/opensans-condbold-webfont.woff2") format("woff2"), url("../assets/fonts/opensans-condbold-webfont.woff") format("woff"), url("../assets/fonts/opensans-condbold-webfont.ttf") format("truetype"), url("../assets/fonts/opensans-condbold-webfont.svg#open_sans_condensedbold") format("svg");
 }
 
+@font-face{
+	font-family: "JLinXin";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("../assets/fonts/JLinXin.eot");
+	src: url("../assets/fonts/JLinXin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JLinXin.woff2") format("woff2"), url("../assets/fonts/JLinXin.woff") format("woff"), url("../assets/fonts/JLinXin.ttf") format("truetype"), url("../assets/fonts/JLinXin.svg#j_lin_xin") format("svg");
+}
+
+@font-face{
+	font-family: "pingfang bold";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("../assets/fonts/JLinXin.eot");
+	src: url("../assets/fonts/JLinXin.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/JLinXin.woff2") format("woff2"), url("../assets/fonts/JLinXin.woff") format("woff"), url("../assets/fonts/JLinXin.ttf") format("truetype"), url("../assets/fonts/JLinXin.svg#j_lin_xin") format("svg");
+}
+
+@font-face{
+	font-family: "冬青黑体";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("../assets/fonts/冬青黑体.otf") format("otf");
+}
+
+@font-face{
+	font-family: "pingfang";
+	font-style: normal;
+	font-weight: 700;
+
+	src: url("../assets/fonts/PINGFANG BOLD.TTF") format("truetype");
+}
+
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html{
-	font-family: "Montserrat", "Arial", sans-serif;
+	font-family: "pingfang", "冬青黑体", "Montserrat", "Arial", sans-serif;
 	font-size: 625%;
 	line-height: 1.2;
 	-webkit-text-size-adjust: 100%;
@@ -303,7 +338,7 @@ p{
 }
 
 body{
-	font: .16rem/1.2 "Montserrat", "Arial", sans-serif;
+	font: .16rem/1.2 "pingfang", "冬青黑体", "Montserrat", "Arial", sans-serif;
 	font-weight: 400;
 	color: #909090;
 	background-color: #f4f4f4;
@@ -620,6 +655,7 @@ body{
 
 .header .logo-container .ch-name{
 	display: block;
+	font-family: "JLinXin";
 	font-size: 26px;
 	font-weight: 700;
 }
@@ -1364,8 +1400,8 @@ button.swiper-pagination-bullet{
 	line-height: 22px;
 }
 
-.aboutactive + .poem{
-	margin-top: 40px;
+.aboutactive .poem + .poem{
+	margin-top: 28px;
 }
 
 .aboutactive .readMore{
@@ -1458,7 +1494,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .sitemap{
-	padding-top: 20px;
+	padding-top: 35px;
 }
 
 .sitemap img{
@@ -1586,13 +1622,20 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-product .product-wrap .text{
+	min-height: 80px;
 	padding-right: 12px;
 	padding-left: 12px;
 	line-height: 18px;
 }
 
 .widget-product .product-wrap .text h3{
-	font-size: 16px;
+	margin: 10px 0 4px;
+	font-size: 12px;
+}
+
+.widget-product .product-wrap .text p{
+	margin-top: 4px;
+	margin-bottom: 0;
 }
 
 .widget-slider .inner{

@@ -82,3 +82,48 @@
   url('#{$fonts-path}/opensans-condbold-webfont.svg#open_sans_condensedbold') format('svg');
   src: url('#{$fonts-path}/opensans-condbold-webfont.eot');
 }
+
+//JLinXin
+@font-face {
+  font-family: 'JLinXin';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$fonts-path}/JLinXin.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/JLinXin.woff2') format('woff2'),
+  url('#{$fonts-path}/JLinXin.woff') format('woff'),
+  url('#{$fonts-path}/JLinXin.ttf') format('truetype'),
+  url('#{$fonts-path}/JLinXin.svg#j_lin_xin') format('svg');
+  src: url('#{$fonts-path}/JLinXin.eot');
+}
+
+//PINGFANG BOLD
+@font-face {
+  font-family: 'pingfang bold';
+  font-style: normal;
+  font-weight: 700;
+  src: url('#{$fonts-path}/JLinXin.eot?#iefix') format('embedded-opentype'),
+  url('#{$fonts-path}/JLinXin.woff2') format('woff2'),
+  url('#{$fonts-path}/JLinXin.woff') format('woff'),
+  url('#{$fonts-path}/JLinXin.ttf') format('truetype'),
+  url('#{$fonts-path}/JLinXin.svg#j_lin_xin') format('svg');
+  src: url('#{$fonts-path}/JLinXin.eot');
+}
+
+//冬青黑体
+@font-face {
+  font-family: '冬青黑体';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+  url('#{$fonts-path}/冬青黑体.otf') format('otf');
+}
+
+//pingfang bold
+@font-face {
+  font-family: 'pingfang';
+  font-style: normal;
+  font-weight: 700;
+  src: 
+  url('#{$fonts-path}/PINGFANG BOLD.TTF') format('truetype');
+}
+
