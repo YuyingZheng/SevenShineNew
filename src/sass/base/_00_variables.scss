@@ -1,43 +1,10 @@
 //============================================//
 //
-// CSS Variables
-//
-//********************************************//
-// :root {
-// 	--gap: .02rem;
-// 	--gutter: .03rem;
-// 	--title-margin: calc(var(--gap) * 6);
-// 	--container-padding: calc(var(--gutter) * 5);
-// 	--widget-padding: calc(var(--gap) * 8);
-// 	--widget-margin: calc(var(--gap) * 5);
-// 	--box-padding-x: calc(var(--gutter) * 5);
-// 	--box-padding-y: calc(var(--gap) * 10);
-// 	--footer-padding: calc(var(--gap) * 8);
-// 	--columns-margin: calc(var(--gap) * 5);
-// 	--row-margin: calc(var(--gap) * (-5));
-// 	--columns: 12;
-// 	--column-width: 12;
-
-// 	@media (min-width: 768px) {
-// 		--gap: .03rem;
-// 		--gutter: .06rem;
-// 	}
-
-// 	@media (min-width: 1024px) {
-// 		--gap: .04rem;
-// 		--gutter: .08rem;
-// 	}
-// }
-
-
-
-//============================================//
-//
 // Normalize
 //
 //********************************************//
 $fonts-path: '../assets/fonts';
-$base-font-family: 'Montserrat', 'Arial', sans-serif !default;
+$base-font-family: 'pingfang', '冬青黑体', 'Montserrat', 'Arial', sans-serif !default;
 $extra-font-family: 'Open Sans Condensed', sans-serif !default;
 $feature-font-family: 'Dancing Script', sans-serif !default;
 $zh-cn-font: 'Microsoft YaHei', sans-serif !default;
