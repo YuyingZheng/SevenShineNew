@@ -1460,19 +1460,20 @@ span.BMap_Marker.BMap_noprint{
 	margin-top: 19px;
 	overflow: hidden;
 	border: solid transparent;
-	border-width: 0 0 35px 20px;
+	border-width: 0 0 28px 20px;
 	border-left-color: rgba(0, 0, 0, .75);
 }
 
 .sitemap .pop > div:nth-child(9){
 	height: auto !important;
-	padding: 30px 15px;
-	margin: 10px 0 0 108px;
+	padding: 18px 0 18px 15px;
+	margin: 10px 0 0 101px;
 	color: #fff;
 	background: rgba(0, 0, 0, .75);
 }
 
 .sitemap .BMap_bubble_content{
+	margin-left: 18px;
 	font-size: 14px;
 	line-height: 1.8;
 }

@@ -51,21 +51,22 @@ span.BMap_Marker.BMap_noprint {
         overflow: hidden;
         border: solid transparent;
         border-left-color: rgba(0, 0, 0, .75);
-        border-width: 0 0 35px 20px;
+        border-width: 0 0 28px 20px;
         margin-top: 19px;
     }
     .pop > div:nth-child(9) {
         background: rgba(0, 0, 0, .75);
         color: #fff;
-        padding: 30px 15px;
+        padding: 18px 0px 18px 15px;
         height: auto !important;
         // padding: .5rem;
-        margin: 10px 0 0 108px;
+        margin: 10px 0 0 101px;
     }
 
     .BMap_bubble_content {
         font-size: 14px;
         line-height: 1.8;
+        margin-left: 18px;
     }
 }
 .BMapLabel {
