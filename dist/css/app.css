@@ -660,8 +660,9 @@ body{
 .header .logo-container .ch-name{
 	display: block;
 	font-family: "JLinXin";
-	font-size: 26px;
+	font-size: 28px;
 	font-weight: 700;
+	letter-spacing: 10px;
 }
 
 .header .logo-container .eg-name{
@@ -1398,10 +1399,6 @@ button.swiper-pagination-bullet{
 	font-size: 10px;
 }
 
-.aboutactive .img-wrap img{
-	width: initial;
-}
-
 .aboutactive .para{
 	line-height: 22px;
 }
@@ -1417,6 +1414,15 @@ button.swiper-pagination-bullet{
 	font-weight: bold;
 	color: #1787fe;
 	text-align: center;
+}
+
+.article .img-wrap .picture{
+	display: inline-block;
+	height: 280px;
+}
+
+.article .img-wrap img{
+	height: 100%;
 }
 
 .businesscard{
@@ -1450,6 +1456,7 @@ button.swiper-pagination-bullet{
 	margin-top: 14px;
 	margin-bottom: 0;
 	line-height: 38px;
+	color: #909090;
 }
 
 .aboutus p + p{
@@ -1458,35 +1465,42 @@ button.swiper-pagination-bullet{
 
 .left-banner,
 .right-banner{
-	width: calc(49% - 40px);
+	width: calc(50% - 32px);
 }
 
 .left-banner{
-	padding-right: 40px;
+	width: calc(50% - 32px);
+	padding-right: 32px;
 	border-right: dashed 1px #d5d5d5;
 }
 
 .right-banner{
-	padding-top: 12px;
+	width: calc(50% - 23px);
 }
 
 .introduction{
-	padding: 28px 40px 38px;
+	padding: 28px 20px 38px;
 	margin-bottom: 78px;
 	background: #ffff;
 }
 
 .introduction h3{
 	margin-bottom: 10px;
+	text-indent: 7px;
 }
 
 .introduction p{
+	position: relative;
+	padding-left: 77px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	line-height: 22px;
+	color: #909090;
 }
 
 .introduction p label{
+	position: absolute;
+	left: 0;
 	display: inline-block;
 	padding: 0 9px;
 	margin-right: 10px;
@@ -1565,6 +1579,10 @@ span.BMap_Marker.BMap_noprint{
 	min-height: 100px;
 }
 
+.product-detail .aboutGame p{
+	color: #909090;
+}
+
 .widget-product{
 	margin-bottom: 50px;
 }
@@ -1580,12 +1598,12 @@ span.BMap_Marker.BMap_noprint{
 
 .widget-product h2{
 	margin-bottom: 8px;
-	font-size: 18px;
+	font-size: 20px;
 	color: #1787fe;
 }
 
 .widget-product h3{
-	font-size: 12px;
+	font-size: 14px;
 	color: #3d3d3d;
 }
 
@@ -1614,9 +1632,9 @@ span.BMap_Marker.BMap_noprint{
 	left: 0;
 	display: none;
 	width: 100%;
-	height: 30px;
-	font-size: 12px;
-	line-height: 30px;
+	height: 40px;
+	font-size: 14px;
+	line-height: 40px;
 	color: #fff;
 	text-align: left;
 	text-indent: 12px;
@@ -1628,7 +1646,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-product .product-wrap .text{
-	min-height: 77px;
+	min-height: 68px;
 	padding-right: 10px;
 	padding-left: 10px;
 	line-height: 18px;
@@ -1645,13 +1663,23 @@ span.BMap_Marker.BMap_noprint{
 	color: #909090;
 }
 
+.widget-product .product-wrap .text p:nth-of-type(2){
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
 .widget-slider .inner{
 	position: relative;
 }
 
+.widget-slider:hover .swiper-button-prev,
+.widget-slider:hover .swiper-button-next{
+	display: block;
+}
+
 .widget-slider .swiper-slide{
 	width: 100% !important;
-	height: 3.50rem;
 }
 
 .widget-slider .swiper-slide a{
@@ -1668,6 +1696,7 @@ span.BMap_Marker.BMap_noprint{
 .widget-slider .swiper-button-next{
 	position: absolute;
 	top: 36%;
+	display: none;
 	width: .5rem;
 	height: .5rem;
 	margin-top: 0;
@@ -1697,7 +1726,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: 10%;
+	left: 22%;
 }
 
 .widget-slider .swiper-button-prev:before{
@@ -1717,7 +1746,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: 10%;
+	right: 22%;
 }
 
 .widget-slider .swiper-button-next:before{
