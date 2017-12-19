@@ -30,12 +30,6 @@
 	time {
 		font-size: 10px;
 	}
-	.img-wrap{
-	    img {
-	    	width: initial;
-	    }
-	}
-
 	.para {
 		line-height: 22px;
 	}
@@ -54,15 +48,26 @@
 		font-weight: bold;
 	}
 }
+.article {
+	.img-wrap  {
+	 .picture {
+	   display: inline-block;
+       height: 280px;
+	  }
+	  img {
+	  height: 100%;
+	  }
+	}
+}
 .businesscard {
 	padding: 20px 20px 56px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	background: #fff;
 	.img-wrap{
-    img {
-    width: initial;
-    }
+     img {
+        width: initial;
+      }
 	}
 }
 .limited-height {

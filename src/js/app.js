@@ -27,7 +27,8 @@ $(function() {
 	    loop: true,
 	    pagination: '.J_HomeSliderPagination',
 	    prevButton: '.J_HomeSliderButtonPrev',
-	    nextButton: '.J_HomeSliderButtonNext'
+	    nextButton: '.J_HomeSliderButtonNext',
+	    autoplay :3000
 	  });
 	  
 	})();
