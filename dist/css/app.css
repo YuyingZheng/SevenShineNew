@@ -334,13 +334,13 @@ template{
 }
 
 p{
-	font-size: 10px;
+	font-size: 12px;
 }
 
 body{
 	font: .16rem/1.2 "pingfang", "冬青黑体", "Montserrat", "Arial", sans-serif;
 	font-weight: 400;
-	color: #909090;
+	color: #666;
 	background-color: #f4f4f4;
 }
 
@@ -389,7 +389,7 @@ h2{
 }
 
 h3{
-	font-size: 12px;
+	font-size: 14px;
 	color: #3d3d3d;
 }
 
@@ -604,12 +604,16 @@ p{
 	display: none;
 }
 
+p{
+	font-size: 12px;
+}
+
 body{
 	min-width: 1024px;
 }
 
 .global-width{
-	width: 1000px;
+	width: 1024px;
 	padding: 0 12px;
 	margin: 0 auto;
 }
@@ -636,8 +640,8 @@ body{
 
 .header .logo-container .logo{
 	float: left;
-	width: .27rem;
-	height: .43rem;
+	width: .4rem;
+	height: .6rem;
 }
 
 .header .logo-container .logo img{
@@ -648,9 +652,9 @@ body{
 
 .header .logo-container .company{
 	float: left;
+	margin-top: 10px;
 	margin-left: 10px;
 	color: #000;
-	text-align: center;
 }
 
 .header .logo-container .ch-name{
@@ -672,7 +676,7 @@ body{
 
 .header .nav li{
 	display: inline-block;
-	padding: .1rem .35rem;
+	padding: .16rem .35rem .1rem;
 	text-align: center;
 	-webkit-transition: all 2s ease-out;
 	        transition: all 2s ease-out;
@@ -681,7 +685,7 @@ body{
 .header .nav li a{
 	display: block;
 	padding: .02rem 0;
-	font-size: 12px;
+	font-size: 14px;
 	border-bottom: .02rem solid transparent;
 }
 
@@ -693,16 +697,15 @@ body{
 
 .main{
 	min-width: 1024px;
-	padding-bottom: 1.56rem;
+	min-height: 640px;
 }
 
 .footer{
-	font-size: 10px;
-	color: #909090;
+	color: #666;
 }
 
 .footer .inner{
-	position: fixed;
+	position: relative;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -713,6 +716,10 @@ body{
 .footer .inner .relative{
 	padding-top: 40px;
 	padding-bottom: 40px;
+}
+
+.footer .text p{
+	font-size: 10px;
 }
 
 .footer .text p span{
@@ -1385,7 +1392,6 @@ button.swiper-pagination-bullet{
 
 .aboutactive h3{
 	margin-bottom: 0;
-	font-size: 14px;
 }
 
 .aboutactive time{
@@ -1438,7 +1444,6 @@ button.swiper-pagination-bullet{
 .aboutus h3{
 	margin-top: 0;
 	margin-bottom: 12px;
-	font-size: 12px;
 }
 
 .aboutus p{
@@ -1461,6 +1466,10 @@ button.swiper-pagination-bullet{
 	border-right: dashed 1px #d5d5d5;
 }
 
+.right-banner{
+	padding-top: 12px;
+}
+
 .introduction{
 	padding: 28px 40px 38px;
 	margin-bottom: 78px;
@@ -1469,20 +1478,17 @@ button.swiper-pagination-bullet{
 
 .introduction h3{
 	margin-bottom: 10px;
-	font-size: 12px;
-	color: #3d3d3d;
 }
 
 .introduction p{
 	margin-top: 10px;
 	margin-bottom: 10px;
-	font-size: 10px;
 	line-height: 22px;
 }
 
 .introduction p label{
 	display: inline-block;
-	padding: 4px 6px;
+	padding: 0 9px;
 	margin-right: 10px;
 	border: 1px solid #d5d5d5;
 	border-radius: 18px;
@@ -1622,20 +1628,21 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-product .product-wrap .text{
-	min-height: 80px;
-	padding-right: 12px;
-	padding-left: 12px;
+	min-height: 57px;
+	padding-right: 10px;
+	padding-left: 10px;
 	line-height: 18px;
 }
 
 .widget-product .product-wrap .text h3{
 	margin: 10px 0 4px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
 .widget-product .product-wrap .text p{
 	margin-top: 4px;
 	margin-bottom: 0;
+	color: #909090;
 }
 
 .widget-slider .inner{

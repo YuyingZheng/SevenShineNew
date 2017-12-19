@@ -7,7 +7,7 @@ body{
   min-width:1024px;
 }
 .global-width {
-  width: 1000px;
+  width: 1024px;
   padding: 0 12px;
   margin: 0 auto;
 }
@@ -35,8 +35,8 @@ body{
   }
   .logo-container {
     .logo{
-      height:.43rem;
-      width:.27rem;
+      height:.6rem;
+      width:.4rem;
       float:left;
       img{
         height: 100%;
@@ -47,8 +47,8 @@ body{
     .company {
       float: left;
       margin-left: 10px;
-      text-align: center;
       color: #000;
+      margin-top: 10px;
     }
     .ch-name {
       font-size:26px;
@@ -67,13 +67,13 @@ body{
       margin-bottom: 4px;
     li {
       display: inline-block;
-      padding: 0.1rem 0.35rem;
+      padding: .16rem .35rem .1rem;
       text-align: center;
       transition: all 2s ease-out;
       a {
         display: block;
         padding: 0.02rem 0;
-        font-size: 12px;
+        font-size: 14px;
         border-bottom: .02rem solid transparent;
         &.active,
         &:hover {
@@ -91,7 +91,8 @@ body{
 //============================================//
 .main {
   min-width: 1024px;
-  padding-bottom: 1.56rem;
+  //padding-bottom: 1.56rem;
+  min-height: 640px;
 }
 
 
@@ -100,9 +101,8 @@ body{
 //============================================//
 .footer{
   color: $base-font-color;
-  font-size: 10px;
   .inner{
-    position:fixed;
+    position: relative;
     bottom: 0;
     left:0;
     right:0;
@@ -115,6 +115,7 @@ body{
   }
   .text {
     p {
+    font-size: 10px;
     span {
       margin-left: 5px;
       margin-right: 5px;
