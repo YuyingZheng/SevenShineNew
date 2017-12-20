@@ -33,13 +33,13 @@
 		height: .5rem;
 		background-image: none;
 		transition: $primary-transition;
-		background-color: #68BAFE;
+		background-color: #A9A9A9;
+        opacity: 0.5;
 		@extend .rounded-circle;
 		&:hover{
-			background-color: #b3becd;
 			 &:before,
 			 &:after {
-			 	border-color: #169bff;
+			 	border-color: #179BFF;
 			 }
 		}
 		.icon{
@@ -48,7 +48,7 @@
 			height: .14rem;
 		}
 	}
-	.swiper-button-prev{	
+	.swiper-button-prev
     left: 22%;
     &:before {
     	content: '';

@@ -1694,22 +1694,18 @@ span.BMap_Marker.BMap_noprint{
 	width: .5rem;
 	height: .5rem;
 	margin-top: 0;
-	background-color: #68bafe;
+	background-color: #a9a9a9;
 	background-image: none;
+	opacity: .5;
 	-webkit-transition: all .3s linear;
 	        transition: all .3s linear;
-}
-
-.widget-slider .swiper-button-prev:hover,
-.widget-slider .swiper-button-next:hover{
-	background-color: #b3becd;
 }
 
 .widget-slider .swiper-button-prev:hover:before,
 .widget-slider .swiper-button-prev:hover:after,
 .widget-slider .swiper-button-next:hover:before,
 .widget-slider .swiper-button-next:hover:after{
-	border-color: #169bff;
+	border-color: #179bff;
 }
 
 .widget-slider .swiper-button-prev .icon,
