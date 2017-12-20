@@ -1716,7 +1716,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: 22%;
+	left: 9.3%;
 }
 
 .widget-slider .swiper-button-prev:before{
@@ -1736,7 +1736,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: 22%;
+	right: 9.3%;
 }
 
 .widget-slider .swiper-button-next:before{
@@ -1753,6 +1753,10 @@ span.BMap_Marker.BMap_noprint{
 	border-right: solid 2px #fff;
 	-webkit-transform: rotate(45deg);
 	        transform: rotate(45deg);
+}
+
+.widget-slider .swiper-pagination{
+	display: none;
 }
 
 .widget-slider .swiper-pagination-bullet{

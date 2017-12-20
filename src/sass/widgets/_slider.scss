@@ -48,8 +48,8 @@
 			height: .14rem;
 		}
 	}
-	.swiper-button-prev
-    left: 22%;
+	.swiper-button-prev {
+    left: 9.3%;
     &:before {
     	content: '';
     	position: absolute;
@@ -66,7 +66,7 @@
     }
 	}
 	.swiper-button-next{
-		right: 22%;
+		right: 9.3%;
 		&:before {
     	content: '';
     	position: absolute;
@@ -80,7 +80,10 @@
     	border-top: solid 2px #fff;
     	border-right: solid 2px #fff;
     	transform:rotate(45deg);
-    }
+      }
+	}
+	.swiper-pagination {
+	  display: none;
 	}
 	.swiper-pagination-bullet{
 		background-color: $light-white;
