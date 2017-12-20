@@ -1456,7 +1456,6 @@ button.swiper-pagination-bullet{
 	margin-top: 14px;
 	margin-bottom: 0;
 	line-height: 38px;
-	color: #909090;
 }
 
 .aboutus p + p{
@@ -1495,7 +1494,6 @@ button.swiper-pagination-bullet{
 	margin-top: 10px;
 	margin-bottom: 10px;
 	line-height: 22px;
-	color: #909090;
 }
 
 .introduction p label{
@@ -1577,10 +1575,6 @@ span.BMap_Marker.BMap_noprint{
 
 .product-detail .aboutGame{
 	min-height: 100px;
-}
-
-.product-detail .aboutGame p{
-	color: #909090;
 }
 
 .widget-product{
