@@ -73,7 +73,7 @@ $(function() {
 		  }
 		  else {
 		  	target.removeClass('hidden')
-		  	$(this).text('隐藏更多')
+		  	$(this).text('收起')
 		  }
 		});
 	})();

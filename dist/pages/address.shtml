@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@@include('includes/head.shtml', {"title": "Home | Site name"})
+@@include('includes/head.shtml', {"title": "七泽科技 | Seven-Shine Technology"})
 
 <body>
   @@include('includes/header.shtml')
