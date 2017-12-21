@@ -785,7 +785,7 @@ p{
 
 .widget .img-wrap{
 	width: 100%;
-	height: 365px;
+	height: auto;
 }
 
 .widget .img-wrap img{
@@ -1412,6 +1412,7 @@ button.swiper-pagination-bullet{
 
 .aboutactive .para{
 	line-height: 32px;
+	text-indent: 31px;
 }
 
 .aboutactive .poem p{
@@ -1729,22 +1730,34 @@ span.BMap_Marker.BMap_noprint{
 	height: 100%;
 }
 
-.widget-slider .swiper-button-prev{
+.widget-slider .global-width{
+	position: relative;
+}
+
+.widget-slider .swiper-button-prev,
+.widget-slider .swiper-button-next{
 	position: absolute;
-	top: 18%;
-	left: 12.9%;
-	width: 100%;
-	height: 100%;
-	background: url(../assets/uploads/slider/1.png) no-repeat center;
+	top: -300px;
+	width: .5rem;
+	height: .5rem;
+}
+
+.widget-slider .swiper-button-prev{
+	left: 22px;
+	background: url(../assets/uploads/slider/2.png) no-repeat center;
+}
+
+.widget-slider .swiper-button-prev:hover{
+	background: url(../assets/uploads/slider/4.png) no-repeat center;
 }
 
 .widget-slider .swiper-button-next{
-	position: absolute;
-	top: 18%;
-	right: 12.7%;
-	width: 100%;
-	height: 100%;
-	background: url(../assets/uploads/slider/2.png) no-repeat center;
+	right: 20px;
+	background: url(../assets/uploads/slider/1.png) no-repeat center;
+}
+
+.widget-slider .swiper-button-next:hover{
+	background: url(../assets/uploads/slider/3.png) no-repeat center;
 }
 
 .widget-slider .swiper-pagination{
