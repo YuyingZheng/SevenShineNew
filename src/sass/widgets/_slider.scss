@@ -24,12 +24,15 @@
 		}
 	}
 	.global-width {
-		position: relative;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
 	}
 	.swiper-button-prev,
 	.swiper-button-next {
 		position: absolute;
-		top: -300px;
 		width: .5rem;
 		height: .5rem;
 		// display: none;

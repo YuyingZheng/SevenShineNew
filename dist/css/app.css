@@ -1731,13 +1731,16 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .global-width{
-	position: relative;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
 }
 
 .widget-slider .swiper-button-prev,
 .widget-slider .swiper-button-next{
 	position: absolute;
-	top: -300px;
 	width: .5rem;
 	height: .5rem;
 }
