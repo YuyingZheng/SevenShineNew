@@ -3,7 +3,7 @@
     <div class="swiper-container J_HomeSlider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <a href="second-page-one.html"><img src="assets/uploads/slider/1.png" alt="images"></a>
+          <a href="second-page-one.html"><img src="assets/uploads/slider/1.jpg" alt="images"></a>
         </div>
         <div class="swiper-slide">
           <a href="second-page-three.html"><img src="assets/uploads/slider/2.jpg" alt="images"></a>
@@ -18,6 +18,7 @@
       <!-- svg class="icon icon-slider-prev">
         <use xlink:href="assets/images/icons.svg#icon-slider-prev"></use>
       </svg> -->
+     <!--  <img src="assets/uploads/slider/2.png"> -->
     </div>
     <div class="swiper-button-next J_HomeSliderButtonNext">
       <!-- <svg class="icon icon-slider-next">

@@ -480,9 +480,7 @@ p{
 }
 
 .rounded-circle,
-.footer .scroll-top,
-.widget-slider .swiper-button-prev,
-.widget-slider .swiper-button-next{
+.footer .scroll-top{
 	border-radius: 50%;
 }
 
@@ -787,7 +785,7 @@ p{
 
 .widget .img-wrap{
 	width: 100%;
-	height: 280px;
+	height: 365px;
 }
 
 .widget .img-wrap img{
@@ -1389,7 +1387,6 @@ button.swiper-pagination-bullet{
 	width: 80px;
 	height: 80px;
 	padding: 2px 2px;
-	margin-top: 10px;
 	background: #ccc;
 }
 
@@ -1732,73 +1729,22 @@ span.BMap_Marker.BMap_noprint{
 	height: 100%;
 }
 
-.widget-slider .swiper-button-prev,
-.widget-slider .swiper-button-next{
-	position: absolute;
-	top: 36%;
-	display: none;
-	width: .5rem;
-	height: .5rem;
-	margin-top: 0;
-	background-color: #f1f5fb;
-	background-image: none;
-	opacity: .2;
-	-webkit-transition: all .3s linear;
-	        transition: all .3s linear;
-}
-
-.widget-slider .swiper-button-prev:hover:before,
-.widget-slider .swiper-button-prev:hover:after,
-.widget-slider .swiper-button-next:hover:before,
-.widget-slider .swiper-button-next:hover:after{
-	border-color: #179bff;
-}
-
-.widget-slider .swiper-button-prev .icon,
-.widget-slider .swiper-button-next .icon{
-	width: .14rem;
-	height: .14rem;
-	color: #fefefe;
-}
-
 .widget-slider .swiper-button-prev{
-	left: 12.9%;
-}
-
-.widget-slider .swiper-button-prev:before{
 	position: absolute;
-	top: 50%;
-	left: 50%;
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin-top: -5px;
-	margin-left: -5px;
-	content: "";
-	border-top: solid 2px #fff;
-	border-right: solid 2px #fff;
-	-webkit-transform: rotate(-135deg);
-	        transform: rotate(-135deg);
+	top: 18%;
+	left: 12.9%;
+	width: 100%;
+	height: 100%;
+	background: url(../assets/uploads/slider/1.png) no-repeat center;
 }
 
 .widget-slider .swiper-button-next{
-	right: 12.7%;
-}
-
-.widget-slider .swiper-button-next:before{
 	position: absolute;
-	top: 50%;
-	right: 50%;
-	display: block;
-	width: 10px;
-	height: 10px;
-	margin-top: -5px;
-	margin-right: -5px;
-	content: "";
-	border-top: solid 2px #fff;
-	border-right: solid 2px #fff;
-	-webkit-transform: rotate(45deg);
-	        transform: rotate(45deg);
+	top: 18%;
+	right: 12.7%;
+	width: 100%;
+	height: 100%;
+	background: url(../assets/uploads/slider/2.png) no-repeat center;
 }
 
 .widget-slider .swiper-pagination{
