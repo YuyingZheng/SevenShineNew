@@ -1741,6 +1741,7 @@ span.BMap_Marker.BMap_noprint{
 .widget-slider .swiper-button-prev,
 .widget-slider .swiper-button-next{
 	position: absolute;
+	display: none;
 	width: .5rem;
 	height: .5rem;
 }
