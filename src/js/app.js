@@ -66,7 +66,7 @@ $(function() {
    //READ MORE
  	(function ReadMore(){
 		$('.readMore').click(function(e){
-      target = $(this).next('.para')
+      target = $(this).next('.poem')
 		  if(!target.hasClass('hidden')) {
         	target.addClass('hidden')
         	$(this).text('查看更多')

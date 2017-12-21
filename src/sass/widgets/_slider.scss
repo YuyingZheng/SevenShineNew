@@ -33,8 +33,8 @@
 		height: .5rem;
 		background-image: none;
 		transition: $primary-transition;
-		background-color: #A9A9A9;
-        opacity: 0.5;
+    background-color: #F1F5FB;
+    opacity: 0.2;
 		@extend .rounded-circle;
 		&:hover{
 			 &:before,
@@ -49,7 +49,7 @@
 		}
 	}
 	.swiper-button-prev {
-    left: 9.3%;
+    left: 12.9%;
     &:before {
     	content: '';
     	position: absolute;
@@ -66,7 +66,7 @@
     }
 	}
 	.swiper-button-next{
-		right: 9.3%;
+		right: 12.7%;
 		&:before {
     	content: '';
     	position: absolute;

@@ -3,13 +3,13 @@
     <div class="swiper-container J_HomeSlider">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <a href="second-page-one.html"><img src="assets/uploads/slider/01.jpg" alt="images"></a>
+          <a href="second-page-one.html"><img src="assets/uploads/slider/1.png" alt="images"></a>
         </div>
         <div class="swiper-slide">
-          <a href="second-page-three.html"><img src="assets/uploads/slider/02.jpg" alt="images"></a>
+          <a href="second-page-three.html"><img src="assets/uploads/slider/2.jpg" alt="images"></a>
         </div>
         <div class="swiper-slide">
-          <a href="second-page-two.html"><img src="assets/uploads/slider/03.jpg" alt="images"></a>
+          <a href="second-page-two.html"><img src="assets/uploads/slider/3.jpg" alt="images"></a>
         </div>
       </div>
       <div class="swiper-pagination J_HomeSliderPagination"></div>

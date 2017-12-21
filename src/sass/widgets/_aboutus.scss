@@ -1,15 +1,18 @@
 .aboutus {
 	padding: 18px 40px 60px;
 	margin-bottom: 70px;
+  margin-top: 20px;
 	background: #ffffff;
   h3 {
   	margin-top: 0;
   	margin-bottom: 12px;
+    font-size: 16px;
   }
 	p {
    margin-top: 14px;
    margin-bottom: 0;
    line-height: 38px;
+   text-indent: 24px;
    + p {
      margin-top: 0;
    }

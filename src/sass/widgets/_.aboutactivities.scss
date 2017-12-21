@@ -6,34 +6,47 @@
 	 	padding: 20px 20px 56px;
 	 	background-color: #fff;
 	 	margin-bottom:.2rem;
+	 	.content {
+	 		padding: 0 20px;
+	 	}
 	}
 	.date {
 		display: block;
 		position: absolute;
-		width: 52px;
-		height: 52px;
-	    background: $active-font-color;
-	    left: -56px;
+		width: 80px;
+		height: 80px;
+	    background: #ccc;
+	    left: -85px;
 	    top: 0;
 	    padding:2px 2px;
+	    margin-top: 10px;
 	    span {
 	    	display: block;
 	    	color: #fff;
-	    	line-height: 18px;
-	    	font-size: 12px;
-	    	margin-top: 4px;
+	    	line-height: 13px;
+	    	font-size: 18px;
+	    	margin-top: 16px;
 	    }
 	}
 	h3 {
-		margin-bottom: 0;
+		margin-bottom: 10px;
+		color: #1787fe;
+		font-size: 18px;
 	}
 	time {
-		font-size: 10px;
+		font-size: 14px;
+		margin-bottom: 27px;
+    display: block;
 	}
 	.para {
-		line-height: 22px;
+		line-height: 32px;
 	}
 	.poem {
+		p {
+			margin-top: 22px;
+			margin-bottom: 22px;
+			font-size: 16px;
+		}
 	+ .poem {
 		margin-top: 28px;
 	  }
@@ -52,7 +65,7 @@
 	.img-wrap  {
 	 .picture {
 	   display: inline-block;
-       height: 280px;
+     height: 424px;
 	  }
 	  img {
 	  height: 100%;

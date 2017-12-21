@@ -80,7 +80,7 @@
 
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
 html{
-	font-family: "pingfang", "冬青黑体", "Montserrat", "Arial", sans-serif;
+	font-family: "PingFang TC", -apple-system, BlinkMacSystemFont, "Microsoft Yahei", Helvetica, Arial, sans-serif;
 	font-size: 625%;
 	line-height: 1.2;
 	-webkit-text-size-adjust: 100%;
@@ -334,11 +334,11 @@ template{
 }
 
 p{
-	font-size: 12px;
+	font-size: 14px;
 }
 
 body{
-	font: .16rem/1.2 "pingfang", "冬青黑体", "Montserrat", "Arial", sans-serif;
+	font: .16rem/1.2 "PingFang TC", -apple-system, BlinkMacSystemFont, "Microsoft Yahei", Helvetica, Arial, sans-serif;
 	font-weight: 400;
 	color: #666;
 	background-color: #f4f4f4;
@@ -389,7 +389,7 @@ h2{
 }
 
 h3{
-	font-size: 14px;
+	font-size: 16px;
 	color: #3d3d3d;
 }
 
@@ -464,7 +464,7 @@ img{
 }
 
 p{
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .list-reset,
@@ -660,9 +660,10 @@ body{
 .header .logo-container .ch-name{
 	display: block;
 	font-family: "JLinXin";
-	font-size: 28px;
+	font-size: 32px;
 	font-weight: 700;
-	letter-spacing: 10px;
+	line-height: 35px;
+	letter-spacing: 5px;
 }
 
 .header .logo-container .eg-name{
@@ -677,7 +678,7 @@ body{
 
 .header .nav li{
 	display: inline-block;
-	padding: .16rem .35rem .1rem;
+	padding: .16rem .26rem .1rem;
 	text-align: center;
 	-webkit-transition: all 2s ease-out;
 	        transition: all 2s ease-out;
@@ -686,7 +687,7 @@ body{
 .header .nav li a{
 	display: block;
 	padding: .02rem 0;
-	font-size: 14px;
+	font-size: 16px;
 	border-bottom: .02rem solid transparent;
 }
 
@@ -720,7 +721,7 @@ body{
 }
 
 .footer .text p{
-	font-size: 10px;
+	font-size: 14px;
 }
 
 .footer .text p span{
@@ -767,6 +768,10 @@ body{
 .footer .scroll-top .icon-scroll-top{
 	width: .14rem;
 	height: .14rem;
+}
+
+p{
+	font-size: 14px;
 }
 
 .widget > .title{
@@ -1372,35 +1377,50 @@ button.swiper-pagination-bullet{
 	background-color: #fff;
 }
 
+.aboutactive .article .content{
+	padding: 0 20px;
+}
+
 .aboutactive .date{
 	position: absolute;
 	top: 0;
-	left: -56px;
+	left: -85px;
 	display: block;
-	width: 52px;
-	height: 52px;
+	width: 80px;
+	height: 80px;
 	padding: 2px 2px;
-	background: #1787fe;
+	margin-top: 10px;
+	background: #ccc;
 }
 
 .aboutactive .date span{
 	display: block;
-	margin-top: 4px;
-	font-size: 12px;
-	line-height: 18px;
+	margin-top: 16px;
+	font-size: 18px;
+	line-height: 13px;
 	color: #fff;
 }
 
 .aboutactive h3{
-	margin-bottom: 0;
+	margin-bottom: 10px;
+	font-size: 18px;
+	color: #1787fe;
 }
 
 .aboutactive time{
-	font-size: 10px;
+	display: block;
+	margin-bottom: 27px;
+	font-size: 14px;
 }
 
 .aboutactive .para{
-	line-height: 22px;
+	line-height: 32px;
+}
+
+.aboutactive .poem p{
+	margin-top: 22px;
+	margin-bottom: 22px;
+	font-size: 16px;
 }
 
 .aboutactive .poem + .poem{
@@ -1418,7 +1438,7 @@ button.swiper-pagination-bullet{
 
 .article .img-wrap .picture{
 	display: inline-block;
-	height: 280px;
+	height: 424px;
 }
 
 .article .img-wrap img{
@@ -1443,6 +1463,7 @@ button.swiper-pagination-bullet{
 
 .aboutus{
 	padding: 18px 40px 60px;
+	margin-top: 20px;
 	margin-bottom: 70px;
 	background: #fff;
 }
@@ -1450,12 +1471,14 @@ button.swiper-pagination-bullet{
 .aboutus h3{
 	margin-top: 0;
 	margin-bottom: 12px;
+	font-size: 16px;
 }
 
 .aboutus p{
 	margin-top: 14px;
 	margin-bottom: 0;
 	line-height: 38px;
+	text-indent: 24px;
 }
 
 .aboutus p + p{
@@ -1469,8 +1492,7 @@ button.swiper-pagination-bullet{
 
 .left-banner{
 	width: calc(50% - 32px);
-	padding-right: 32px;
-	border-right: dashed 1px #d5d5d5;
+	padding-right: 28px;
 }
 
 .right-banner{
@@ -1479,20 +1501,22 @@ button.swiper-pagination-bullet{
 
 .introduction{
 	padding: 28px 20px 38px;
+	margin-top: 20px;
 	margin-bottom: 78px;
 	background: #ffff;
 }
 
 .introduction h3{
 	margin-bottom: 10px;
+	color: #1787fe;
 	text-indent: 7px;
 }
 
 .introduction p{
 	position: relative;
-	padding-left: 77px;
-	margin-top: 10px;
-	margin-bottom: 10px;
+	padding-left: 82px;
+	margin-top: 18px;
+	margin-bottom: 18px;
 	line-height: 22px;
 }
 
@@ -1502,8 +1526,24 @@ button.swiper-pagination-bullet{
 	display: inline-block;
 	padding: 0 9px;
 	margin-right: 10px;
+	color: #3d3d3d;
 	border: 1px solid #d5d5d5;
 	border-radius: 18px;
+}
+
+.company-intro h3{
+	font-size: 18px;
+}
+
+.company-intro p{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	font-size: 16px;
+}
+
+.diving{
+	display: inline-block;
+	margin-top: 18px;
 }
 
 span.BMap_Marker.BMap_noprint{
@@ -1592,12 +1632,12 @@ span.BMap_Marker.BMap_noprint{
 
 .widget-product h2{
 	margin-bottom: 8px;
-	font-size: 20px;
+	font-size: 22px;
 	color: #1787fe;
 }
 
 .widget-product h3{
-	font-size: 14px;
+	font-size: 16px;
 	color: #3d3d3d;
 }
 
@@ -1654,7 +1694,13 @@ span.BMap_Marker.BMap_noprint{
 .widget-product .product-wrap .text p{
 	margin-top: 4px;
 	margin-bottom: 0;
+	font-size: 12px;
+	line-height: 14px;
 	color: #909090;
+}
+
+.widget-product .product-wrap .text p:nth-of-type(1){
+	margin-top: 10px;
 }
 
 .widget-product .product-wrap .text p:nth-of-type(2){
@@ -1694,9 +1740,9 @@ span.BMap_Marker.BMap_noprint{
 	width: .5rem;
 	height: .5rem;
 	margin-top: 0;
-	background-color: #a9a9a9;
+	background-color: #f1f5fb;
 	background-image: none;
-	opacity: .5;
+	opacity: .2;
 	-webkit-transition: all .3s linear;
 	        transition: all .3s linear;
 }
@@ -1716,7 +1762,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: 9.3%;
+	left: 12.9%;
 }
 
 .widget-slider .swiper-button-prev:before{
@@ -1736,7 +1782,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: 9.3%;
+	right: 12.7%;
 }
 
 .widget-slider .swiper-button-next:before{
