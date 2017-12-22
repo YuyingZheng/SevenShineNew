@@ -91,7 +91,7 @@ body{
 	margin: 0;
 }
 
-body > *{
+body *{
 	box-sizing: border-box;
 }
 
@@ -1372,6 +1372,7 @@ button.swiper-pagination-bullet{
 	position: relative;
 	padding: 20px 20px 56px;
 	margin-bottom: .2rem;
+	margin-left: 80px;
 	background-color: #fff;
 }
 
@@ -1382,7 +1383,7 @@ button.swiper-pagination-bullet{
 .aboutactive .date{
 	position: absolute;
 	top: 0;
-	left: -85px;
+	left: -80px;
 	display: block;
 	width: 80px;
 	height: 80px;
@@ -1639,6 +1640,11 @@ span.BMap_Marker.BMap_noprint{
 	color: #3d3d3d;
 }
 
+.widget-product .product-container{
+	margin-right: -10px;
+	margin-left: -10px;
+}
+
 .widget-product .product-wrap{
 	float: left;
 	width: calc(25% - 20px);
@@ -1747,7 +1753,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: 22px;
+	left: 12px;
 	background: url(../assets/uploads/slider/2.png) no-repeat center;
 }
 
@@ -1756,7 +1762,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: 20px;
+	right: 10px;
 	background: url(../assets/uploads/slider/1.png) no-repeat center;
 }
 
