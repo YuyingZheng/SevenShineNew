@@ -24,7 +24,7 @@
 		}
 	}
 	.global-width {
-		position: absolute;
+		// position: absolute;
 		top: 0;
 		left: 0;
 		right: 0;
@@ -38,14 +38,14 @@
 		display: none;
 	}
 	.swiper-button-prev {
-		left: -200px;
+		left: 11%;
 		background: url(../assets/uploads/slider/2.png) no-repeat center;
 		&:hover  {
 		  background: url(../assets/uploads/slider/4.png) no-repeat center;
 		}
 	}
 	.swiper-button-next {
-		right: -200px;
+		right: 11%;
 		background: url(../assets/uploads/slider/1.png) no-repeat center;
 	    &:hover  {
 		  background: url(../assets/uploads/slider/3.png) no-repeat center;

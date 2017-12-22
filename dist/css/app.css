@@ -1737,7 +1737,6 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .global-width{
-	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
@@ -1753,7 +1752,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: -200px;
+	left: 11%;
 	background: url(../assets/uploads/slider/2.png) no-repeat center;
 }
 
@@ -1762,7 +1761,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: -200px;
+	right: 11%;
 	background: url(../assets/uploads/slider/1.png) no-repeat center;
 }
 
