@@ -1486,23 +1486,22 @@ button.swiper-pagination-bullet{
 
 .left-banner,
 .right-banner{
-	width: calc(50% - 32px);
+	width: calc(50% - 4px);
 }
 
 .left-banner{
-	width: calc(50% - 32px);
 	padding-right: 28px;
 }
 
 .right-banner{
-	width: calc(50% - 23px);
+	padding-left: 15px;
 }
 
 .introduction{
 	padding: 28px 20px 38px;
 	margin-top: 20px;
 	margin-bottom: 78px;
-	background: #ffff;
+	background: #fff;
 }
 
 .introduction h3{
