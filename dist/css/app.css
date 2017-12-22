@@ -1753,7 +1753,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-prev{
-	left: 12px;
+	left: -200px;
 	background: url(../assets/uploads/slider/2.png) no-repeat center;
 }
 
@@ -1762,7 +1762,7 @@ span.BMap_Marker.BMap_noprint{
 }
 
 .widget-slider .swiper-button-next{
-	right: 10px;
+	right: -200px;
 	background: url(../assets/uploads/slider/1.png) no-repeat center;
 }
 
