@@ -5,8 +5,8 @@
 <body>
   @@include('includes/header.shtml')
 
-  <main class="main">
-  	<div class="container">
+  <main class="kd-page">
+  	<div class="kd-body">
   		@@include('includes/widgets/imgbanner.shtml')
   		@@include('includes/widgets/abouttext.shtml')
   	</div>

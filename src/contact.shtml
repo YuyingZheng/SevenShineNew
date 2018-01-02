@@ -5,12 +5,12 @@
 <body>
   @@include('includes/header.shtml')
 
-  <main class="main">
-  	<div class="container">
-  		@@include('includes/widgets/second-page-two.shtml')
+  <main class="kd-page">
+  	<div class="kd-body">
+  		@@include('includes/widgets/address.shtml')
   	</div>
   </main>
- 
+  
   @@include('includes/footer.shtml')
   @@include('includes/scripts.shtml')
 </body>

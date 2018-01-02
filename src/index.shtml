@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-cn">
 @@include('includes/head.shtml', {"title": "七泽科技 | Seven-Shine Technology"})
 
 <body>
   @@include('includes/header.shtml')
 
-  <main class="main">
-  	<div class="container">
+  <div class="kd-page">
+  	<main class="kd-body">
   		@@include('includes/widgets/slider.shtml')
   		@@include('includes/widgets/products.shtml')
-  	</div>
-  </main>
+  	</main>
+  </div>
   
   @@include('includes/footer.shtml')
   @@include('includes/scripts.shtml')

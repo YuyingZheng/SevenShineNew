@@ -1,0 +1,78 @@
+//============================================//
+//
+// Content.scss
+//
+//********************************************//
+body {
+  font: #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $base-font-color;
+  font-weight: 400;
+  background-color: $body-color;
+}
+
+a {
+  color: $base-title-color;
+  transition: $primary-transition;
+}
+
+::selection{ 
+  background: $theme-color; 
+  color: $light-white; 
+}
+::-moz-selection{ 
+  background: $theme-color; 
+  color: $light-white; 
+}
+::-webkit-selection {
+  background: $theme-color; 
+  color: $light-white; 
+}
+
+// Heading
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 500;
+  color: $base-title-color;
+}
+
+h1 {
+  font-size: .4rem;
+}
+
+h2 {
+  font-size: .32rem;
+}
+
+h3 {
+  font-size: 16px;
+  color: $base-title-color;
+}
+
+h4 {
+  font-size: .24rem;
+}
+
+h5 {
+  font-size: .2rem;
+}
+
+h6 {
+  font-size: .16rem;
+}
+
+// H5 element
+picture {
+  display: block;
+}
+
+// Image
+img {
+  max-width: 100%;
+  vertical-align: middle;
+  width: 100%;
+}
+

@@ -1,0 +1,163 @@
+//============================================//
+//
+//  Layout.scss
+//
+//********************************************//
+.kd-page {
+  min-width:1024px;
+}
+/*
+ * Global Width
+ */
+.global-width {
+  width: 1024px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+/*
+ * Header
+ */
+ .header {
+   background-color: #fff;
+   padding: 10px 0;
+ }
+/*
+ * Footer
+ */
+.footer {
+  color: $base-font-color;
+  padding: 40px 0;
+  text-align: center;
+}
+//============================================//
+//  Header
+//============================================//
+.header {
+  h1 {
+    float: left;
+    margin-left: 0.16rem;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .logo-container {
+    .logo{
+      height:.6rem;
+      width:.4rem;
+      float:left;
+      img{
+        height: 100%;
+        width:100%;
+        vertical-align: top;
+      }
+    }
+    .company {
+      float: left;
+      margin-left: 10px;
+      color: #000;
+      margin-top: 10px;
+    }
+    .ch-name {
+      font-size:32px;
+      line-height: 35px;
+      letter-spacing: 5px;
+      display: block;
+      font-weight: 700;
+      font-family : 'JLinXin';
+    }
+    .eg-name {
+      font-size: 12px;
+      display: block;
+    }
+  }
+  .nav {
+      @extend .list-reset;
+      margin-top: 4px;
+      margin-bottom: 4px;
+    li {
+      display: inline-block;
+      padding: .16rem .26rem .1rem;
+      text-align: center;
+      transition: all 2s ease-out;
+      a {
+        display: block;
+        padding: 0.02rem 0;
+        font-size: 16px;
+        border-bottom: .02rem solid transparent;
+        &.active,
+        &:hover {
+         color: $active-font-color;
+          border-bottom-color: $active-font-color;
+        }
+      }
+    }
+  }
+}
+
+
+//============================================//
+//  Main
+//============================================//
+// .main {
+//   min-width: 1024px;
+//   //padding-bottom: 1.56rem;
+//   min-height: 640px;
+// }
+
+
+//============================================//
+//  Footer
+//============================================//
+.footer{
+  .inner{
+    position: relative;
+    bottom: 0;
+    left:0;
+    right:0;
+    z-index: 999;
+    background-color: #ffffff;
+  }
+  .text {
+    p {
+    font-size: 14px;
+    span {
+      margin-left: 5px;
+      margin-right: 5px;
+     }
+    }
+  }
+  .qr-code {
+    position: absolute;
+    right: 0.6rem;
+    bottom: 0.05rem;
+    p {
+      color: #000;
+      font-size:13px;
+    }
+  }
+  .scroll-top{
+    display: flex;
+    position: fixed;
+    bottom: .2rem;
+    right: var(--container-padding);
+    z-index: z('sticky');
+    width: .4rem;
+    height: .4rem;
+    justify-content: center;
+    align-items: center;
+    background-color: $black;
+    color: $light-white;
+    @extend .rounded-circle;
+    &:hover{
+      background-color: $theme-color;
+    }
+    .icon-scroll-top{
+      height: .14rem;
+      width: .14rem;
+    }
+  }
+}
+
+p {
+  font-size: 14px;
+}
+

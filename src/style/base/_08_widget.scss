@@ -1,0 +1,25 @@
+//============================================//
+//
+// Widget.scss
+//
+//********************************************//
+.widget{
+	& > .title{
+		padding-bottom: .2rem;
+		margin-bottom: .2rem;
+		font-size: .3rem;
+		text-transform: uppercase;
+		text-align: center;
+		font-family: $extra-font-family;
+		font-weight: 700;
+		background: url(../assets/images/style/widget-title-bg.png) no-repeat bottom center;
+	}
+	.img-wrap {
+		width: 100%;
+		height: auto;
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

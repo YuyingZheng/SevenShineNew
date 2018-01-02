@@ -5,9 +5,9 @@
 <body>
   @@include('includes/header.shtml')
 
-  <main class="main">
-  	<div class="container">
-  		@@include('includes/widgets/second-page-three.shtml')
+  <main class="kd-page">
+  	<div class="kd-body">
+  		@@include('includes/widgets/second-page-two.shtml')
   	</div>
   </main>
  

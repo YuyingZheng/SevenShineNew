@@ -1,0 +1,112 @@
+//============================================//
+//
+// Utilities.scss
+//
+//********************************************//
+// Helpers
+.list-reset {
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+%ellipsis {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+
+// Border-radius
+.rounded {
+  border-radius: $radius;
+}
+
+.rounded-circle {
+  border-radius: 50%;
+}
+
+// Clearfix
+.clearfix {
+}
+
+.clearfix:before,
+.clearfix:after {
+  content: '';
+  display: table;
+}
+
+.clearfix:after,
+.clear {
+  clear: both;
+  font-size: 0;
+  line-height: 0;
+}
+
+//text algin
+
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-justify {
+  text-align: justify !important;
+}
+
+.text-nowrap {
+  white-space: nowrap !important;
+}
+
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+
+.text-light {
+  font-weight: 300 !important;
+}
+
+.text-regular {
+  font-weight: 400 !important;
+}
+
+.text-semibold {
+  font-weight: 600 !important;
+}
+
+.text-bold {
+  font-weight: 700 !important;
+}
+
+// Float
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+}
+
+.hiddden {
+  display: none;
+}
+.relative {
+  position: relative;
+}
+
+p {
+  font-size: 12px;
+}
